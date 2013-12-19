@@ -1,8 +1,8 @@
-# answer extractor for human: individual type
+# answer extractor for numeric: percent type
 
 from ..extractors import NETagExtractor
 
-TAG = "PERSON"
+TAG = "PERCENT"
 
 class Extractor(NETagExtractor):
     def __init__(self, question, docs):

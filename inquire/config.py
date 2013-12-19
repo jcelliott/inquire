@@ -14,6 +14,9 @@ def init(debug=False):
 # Run in debug mode
 DEBUG = False
 
+# Store the question and answer candidates
+CACHE_QUESTION = True
+
 # Windows Azure Marketplace primary account key. Add in config_local.py
 BING_API_KEY = ""
 

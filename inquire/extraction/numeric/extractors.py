@@ -4,10 +4,19 @@ import importlib
 from ..extractors import NoExtractorError, NETagExtractor
 
 question_types = {
-    'ind': 'individual',
-    'gr': 'group',
-    'title': 'title',
-    'desc': 'description',
+    'code': 'code',
+    'count': 'count',
+    'date': 'date', # implemented
+    'distance': 'distance',
+    'money': 'money', # implemented
+    'order': 'order',
+    'period': 'period',
+    'percent': 'percent', # implemented
+    'speed': 'speed',
+    'temp': 'temp',
+    'volsize': 'size',
+    'weight': 'weight',
+    'other': 'other',
 }
 
 def get_extractor(coarse, fine):
