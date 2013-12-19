@@ -1,0 +1,3 @@
+[submodule "pyner"]
+	path = pyner
+	url = git@github.com:jcelliott/pyner.git
