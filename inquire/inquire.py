@@ -25,10 +25,20 @@ def answer_question(question):
         extractor = get_extractor(coarse, fine)
     except NoExtractorError:
         return "I don't know how to answer that type of question yet."
-    answer = extractor(docs).answer()
-    log.info("best answer: "+answer)
-    return answer
+    # returns a sorted list of tuples
+    answers = extractor(question, docs).answer()
+    if answers == None:
+        log.info("No answers found!")
+    else:
+        log.info("best answer: "+answers[0][0])
+        print_answers(answers)
+    return answers
 
+def print_answers(answers):
+    print("Possible answers:")
+    print("-"*30)
+    for res in answers:
+        print(unicode(u"{0:.2f}\t{1}".format(res[1], res[0])))
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Answer a question')

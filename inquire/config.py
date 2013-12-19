@@ -3,6 +3,7 @@ import logging.config
 
 def init(debug=False):
     if debug:
+        DEBUG = True
         for logger in LOGGING['loggers']:
             LOGGING['loggers'][logger]['level'] = 'DEBUG'
 
@@ -10,6 +11,8 @@ def init(debug=False):
     logger = logging.getLogger(__name__)
     logger.debug("Logging level set to DEBUG")
 
+# Run in debug mode
+DEBUG = False
 
 # Windows Azure Marketplace primary account key. Add in config_local.py
 BING_API_KEY = ""
