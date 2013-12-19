@@ -17,7 +17,7 @@ from sklearn.grid_search import GridSearchCV
 from sklearn.svm import LinearSVC
 from sklearn.externals import joblib
 
-from extractors import (
+from features import (
     TagVectorizer, NERVectorizer, RelatedWordVectorizer, CustomFeatures, CustomRelWordFeatures
 )
 
@@ -86,9 +86,10 @@ class Classifier:
     def predict(self, doc):
         """
         Predict the classification of a document with the trained model
-        Returns a tuple of (coarse, fine) classes
+        Returns the coarse and fine classes
         """
-        return tuple(self.model.predict([doc])[0].split(':'))
+        qtype = self.model.predict([doc])[0].split(':')
+        return qtype[0], qtype[1]
 
     def test_model(self, n_folds=10, leave_one_out=False):
         """

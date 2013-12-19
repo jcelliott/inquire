@@ -7,9 +7,9 @@ from itertools import chain, product
 import numpy as np
 from nltk import pos_tag
 # from nltk.tag.stanford import NERTagger
-from ner import SocketNER
 from sklearn.base import BaseEstimator
 from sklearn.feature_extraction.text import TfidfVectorizer, CountVectorizer, VectorizerMixin
+from ner import SocketNER
 
 import config
 

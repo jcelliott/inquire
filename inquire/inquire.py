@@ -3,21 +3,32 @@
 import config
 from retrieval import documents
 from classification import model
+from extraction import get_extractor, NoExtractorError
 
 import argparse
 import logging as log
 
 def answer_question(question):
+    """
+    Main pipeline for question answering
+    Takes a question and returns the most likely answer
+    """
     log.info("answering question: "+args.question)
     log.info("retrieving documents...")
     docs = documents.get_documents(question)
     log.info("classifying question...")
     clf = model.Classifier().load_model()
-    qtype = clf.predict(question)
-    log.info("question classified as: "+str(qtype))
+    coarse, fine = clf.predict(question)
+    log.info("question classified as: {}: {}".format(coarse, fine))
     #answer_candidates(docs)
-    #get_answer(candidates)
-    log.info("and the answer is... 42!")
+    try:
+        extractor = get_extractor(coarse, fine)
+    except NoExtractorError:
+        return "I don't know how to answer that type of question yet."
+    answer = extractor(docs).answer()
+    log.info("best answer: "+answer)
+    return answer
+
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Answer a question')
