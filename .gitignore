@@ -34,3 +34,9 @@ nosetests.xml
 .mr.developer.cfg
 .project
 .pydevproject
+
+# Project-specific resources
+resources/stanford-ner
+resources/classification
+classification/data/models
+config_local.py

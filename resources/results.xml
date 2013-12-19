@@ -1,0 +1,708 @@
+<feed xmlns:base="https://api.datamarket.azure.com/Data.ashx/Bing/SearchWeb/v1/Web" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns="http://www.w3.org/2005/Atom">
+  <title type="text">bitcoin</title>
+  <subtitle type="text">Bing Web Search</subtitle>
+  <id>https://api.datamarket.azure.com/Data.ashx/Bing/SearchWeb/v1/Web?Query='bitcoin'</id>
+  <rights type="text"/>
+  <updated>2013-11-26T16:05:09Z</updated>
+  <link rel="next" href="https://api.datamarket.azure.com/Data.ashx/Bing/SearchWeb/v1/Web?Query='bitcoin'&amp;$skip=50"/>
+  <entry>
+    <id>https://api.datamarket.azure.com/Data.ashx/Bing/SearchWeb/v1/Web?Query='bitcoin'&amp;$skip=0&amp;$top=1</id>
+    <title type="text">WebResult</title>
+    <updated>2013-11-26T16:05:09Z</updated>
+    <content type="application/xml">
+      <m:properties>
+        <d:ID m:type="Edm.Guid">d9e67f6b-053f-4a3a-aec7-9bd4952cef80</d:ID>
+        <d:Title m:type="Edm.String">Bitcoin - Wikipedia, the free encyclopedia</d:Title>
+        <d:Description m:type="Edm.String">Bitcoin (sign: ; code: BTC or XBT) is a peer-to-peer digital currency that functions without the intermediation of a central authority. The concept was introduced in ...</d:Description>
+        <d:DisplayUrl m:type="Edm.String">en.wikipedia.org/wiki/Bitcoin</d:DisplayUrl>
+        <d:Url m:type="Edm.String">http://en.wikipedia.org/wiki/Bitcoin</d:Url>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.datamarket.azure.com/Data.ashx/Bing/SearchWeb/v1/Web?Query='bitcoin'&amp;$skip=1&amp;$top=1</id>
+    <title type="text">WebResult</title>
+    <updated>2013-11-26T16:05:09Z</updated>
+    <content type="application/xml">
+      <m:properties>
+        <d:ID m:type="Edm.Guid">2e1cf840-5eab-4425-be86-a008a6a4cc9b</d:ID>
+        <d:Title m:type="Edm.String">Bitcoin - Open source P2P money</d:Title>
+        <d:Description m:type="Edm.String">Bitcoin uses peer-to-peer technology to operate with no central authority or banks; managing transactions and the issuing of bitcoins is carried out collectively by ...</d:Description>
+        <d:DisplayUrl m:type="Edm.String">bitcoin.org</d:DisplayUrl>
+        <d:Url m:type="Edm.String">http://bitcoin.org/en/</d:Url>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.datamarket.azure.com/Data.ashx/Bing/SearchWeb/v1/Web?Query='bitcoin'&amp;$skip=2&amp;$top=1</id>
+    <title type="text">WebResult</title>
+    <updated>2013-11-26T16:05:09Z</updated>
+    <content type="application/xml">
+      <m:properties>
+        <d:ID m:type="Edm.Guid">d6fc1f0d-2640-402d-b1a3-584573f5f111</d:ID>
+        <d:Title m:type="Edm.String">Bitcoin beginning to go mainstream</d:Title>
+        <d:Description m:type="Edm.String">From a Los Angeles travel agency to a European university, businesses have begun to embrace Bitcoin as mainstream currency</d:Description>
+        <d:DisplayUrl m:type="Edm.String">www.usatoday.com/.../2013/11/21/businesses-embrace-bitcoin/3666279</d:DisplayUrl>
+        <d:Url m:type="Edm.String">http://www.usatoday.com/story/news/nation/2013/11/21/businesses-embrace-bitcoin/3666279/</d:Url>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.datamarket.azure.com/Data.ashx/Bing/SearchWeb/v1/Web?Query='bitcoin'&amp;$skip=3&amp;$top=1</id>
+    <title type="text">WebResult</title>
+    <updated>2013-11-26T16:05:09Z</updated>
+    <content type="application/xml">
+      <m:properties>
+        <d:ID m:type="Edm.Guid">c11201d8-845e-4924-a9c7-eb074e029720</d:ID>
+        <d:Title m:type="Edm.String">How does Bitcoin work? - Bitcoin</d:Title>
+        <d:Description m:type="Edm.String">How does Bitcoin work? This is a question that often causes confusion. Here's a quick explanation! The basics for a new user. As a new user, you can get started with ...</d:Description>
+        <d:DisplayUrl m:type="Edm.String">bitcoin.org/en/how-it-works</d:DisplayUrl>
+        <d:Url m:type="Edm.String">http://bitcoin.org/en/how-it-works</d:Url>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.datamarket.azure.com/Data.ashx/Bing/SearchWeb/v1/Web?Query='bitcoin'&amp;$skip=4&amp;$top=1</id>
+    <title type="text">WebResult</title>
+    <updated>2013-11-26T16:05:09Z</updated>
+    <content type="application/xml">
+      <m:properties>
+        <d:ID m:type="Edm.Guid">d473dde1-3eb2-45f5-9975-b30e9a2833b7</d:ID>
+        <d:Title m:type="Edm.String">Bitcoin.com - Start Here</d:Title>
+        <d:Description m:type="Edm.String">Step 3: Explore ... BUY &amp; SELL bitcoin with any U.S. bank account INVEST at scale with the Bitcoin Investment Trust; ACCEPT bitcoin with simple merchant tools</d:Description>
+        <d:DisplayUrl m:type="Edm.String">bitcoin.com</d:DisplayUrl>
+        <d:Url m:type="Edm.String">http://bitcoin.com/</d:Url>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.datamarket.azure.com/Data.ashx/Bing/SearchWeb/v1/Web?Query='bitcoin'&amp;$skip=5&amp;$top=1</id>
+    <title type="text">WebResult</title>
+    <updated>2013-11-26T16:05:09Z</updated>
+    <content type="application/xml">
+      <m:properties>
+        <d:ID m:type="Edm.Guid">2a4f3757-9593-4abf-a4d6-20d72adf3345</d:ID>
+        <d:Title m:type="Edm.String">A Bitcoin Puzzle - Heads, It&#8217;s Excitement. Tails, It&#8217;s ...</d:Title>
+        <d:Description m:type="Edm.String">It doesn&#8217;t fit into a neat product category. Often called a virtual currency, it&#8217;s not legal tender anywhere on the planet. It&#8217;s not an income ...</d:Description>
+        <d:DisplayUrl m:type="Edm.String">www.nytimes.com/2013/11/24/your-money/a-bitcoin-puzzle-heads-its...</d:DisplayUrl>
+        <d:Url m:type="Edm.String">http://www.nytimes.com/2013/11/24/your-money/a-bitcoin-puzzle-heads-its-excitement-tails-its-anxiety.html?pagewanted=all</d:Url>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.datamarket.azure.com/Data.ashx/Bing/SearchWeb/v1/Web?Query='bitcoin'&amp;$skip=6&amp;$top=1</id>
+    <title type="text">WebResult</title>
+    <updated>2013-11-26T16:05:09Z</updated>
+    <content type="application/xml">
+      <m:properties>
+        <d:ID m:type="Edm.Guid">30a9b410-1f23-447a-848f-4d4623d4f19f</d:ID>
+        <d:Title m:type="Edm.String">Bitcoin Goes to Washington: Monday&#8217;s Hearing Is Just the ...</d:Title>
+        <d:Description m:type="Edm.String">Bitcoin Goes to Washington: Monday&#8217;s Hearing Is Just the Beginning. A Senate panel looks at the risks and benefits of the cryptocurrency</d:Description>
+        <d:DisplayUrl m:type="Edm.String">swampland.time.com/2013/11/17/bitcoin-comes-to-washington-mondays...</d:DisplayUrl>
+        <d:Url m:type="Edm.String">http://swampland.time.com/2013/11/17/bitcoin-comes-to-washington-mondays-hearing-is-just-the-beginning/</d:Url>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.datamarket.azure.com/Data.ashx/Bing/SearchWeb/v1/Web?Query='bitcoin'&amp;$skip=7&amp;$top=1</id>
+    <title type="text">WebResult</title>
+    <updated>2013-11-26T16:05:09Z</updated>
+    <content type="application/xml">
+      <m:properties>
+        <d:ID m:type="Edm.Guid">cadc2521-def7-4b3e-bd49-f0a3e15cc742</d:ID>
+        <d:Title m:type="Edm.String">MtGox.com loading - Mt.Gox - Bitcoin Exchange</d:Title>
+        <d:Description m:type="Edm.String">An exchange which allows users to trade Bitcoins for US Dollars and several other currencies. Based in Japan.</d:Description>
+        <d:DisplayUrl m:type="Edm.String">https://www.mtgox.com</d:DisplayUrl>
+        <d:Url m:type="Edm.String">https://www.mtgox.com/</d:Url>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.datamarket.azure.com/Data.ashx/Bing/SearchWeb/v1/Web?Query='bitcoin'&amp;$skip=8&amp;$top=1</id>
+    <title type="text">WebResult</title>
+    <updated>2013-11-26T16:05:09Z</updated>
+    <content type="application/xml">
+      <m:properties>
+        <d:ID m:type="Edm.Guid">737ace30-b64c-4ab0-b1ba-f082ca2485d5</d:ID>
+        <d:Title m:type="Edm.String">Bitcoin $645? Yeah, That&#8217;s Totally Reasonable | TechCrunch</d:Title>
+        <d:Description m:type="Edm.String">Bitcoin, the cryptocurrency on everyone&#8217;s mind, is booming in value. Currently trading around $645 per coin, it has never been worth more, or generated ...</d:Description>
+        <d:DisplayUrl m:type="Edm.String">techcrunch.com/2013/11/18/bitcoin-645-yeah-thats-totally-reasonable</d:DisplayUrl>
+        <d:Url m:type="Edm.String">http://techcrunch.com/2013/11/18/bitcoin-645-yeah-thats-totally-reasonable/</d:Url>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.datamarket.azure.com/Data.ashx/Bing/SearchWeb/v1/Web?Query='bitcoin'&amp;$skip=9&amp;$top=1</id>
+    <title type="text">WebResult</title>
+    <updated>2013-11-26T16:05:09Z</updated>
+    <content type="application/xml">
+      <m:properties>
+        <d:ID m:type="Edm.Guid">41eedc1f-5ccf-4a59-bd1f-e68c16666ec3</d:ID>
+        <d:Title m:type="Edm.String">Bitcoin Charts</d:Title>
+        <d:Description m:type="Edm.String">Bitcoin News 21 Nov 2013 University in Cyprus Becomes First to Accept Bitcoin Payments. The adoption of Bitcoin bears ever new fruits as now the world's first ...</d:Description>
+        <d:DisplayUrl m:type="Edm.String">bitcoincharts.com</d:DisplayUrl>
+        <d:Url m:type="Edm.String">http://bitcoincharts.com/</d:Url>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.datamarket.azure.com/Data.ashx/Bing/SearchWeb/v1/Web?Query='bitcoin'&amp;$skip=10&amp;$top=1</id>
+    <title type="text">WebResult</title>
+    <updated>2013-11-26T16:05:09Z</updated>
+    <content type="application/xml">
+      <m:properties>
+        <d:ID m:type="Edm.Guid">4792f322-3f50-4945-b114-cbbdc093b6a5</d:ID>
+        <d:Title m:type="Edm.String">What is Bitcoin? - We Use Coins</d:Title>
+        <d:Description m:type="Edm.String">Using the Bitcoin network is free, except for a voluntary fee you can use to speed up transaction processing. It's the cheapest way to move money around.</d:Description>
+        <d:DisplayUrl m:type="Edm.String">https://www.weusecoins.com</d:DisplayUrl>
+        <d:Url m:type="Edm.String">https://www.weusecoins.com/en/</d:Url>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.datamarket.azure.com/Data.ashx/Bing/SearchWeb/v1/Web?Query='bitcoin'&amp;$skip=11&amp;$top=1</id>
+    <title type="text">WebResult</title>
+    <updated>2013-11-26T16:05:09Z</updated>
+    <content type="application/xml">
+      <m:properties>
+        <d:ID m:type="Edm.Guid">a2f82b35-3734-4a72-98a2-b81d94560f97</d:ID>
+        <d:Title m:type="Edm.String">Virgin's space passengers can pay with Bitcoin - Nov. 22, 2013</d:Title>
+        <d:Description m:type="Edm.String">Richard Branson announced Friday that his commercial space travel venture, Virgin Galactic, will allow customers to pay for their flights with Bitcoin.</d:Description>
+        <d:DisplayUrl m:type="Edm.String">money.cnn.com/2013/11/22/news/companies/bitcoin-virgin-space/index...</d:DisplayUrl>
+        <d:Url m:type="Edm.String">http://money.cnn.com/2013/11/22/news/companies/bitcoin-virgin-space/index.html</d:Url>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.datamarket.azure.com/Data.ashx/Bing/SearchWeb/v1/Web?Query='bitcoin'&amp;$skip=12&amp;$top=1</id>
+    <title type="text">WebResult</title>
+    <updated>2013-11-26T16:05:09Z</updated>
+    <content type="application/xml">
+      <m:properties>
+        <d:ID m:type="Edm.Guid">af422683-6be5-4104-b887-03a136e07569</d:ID>
+        <d:Title m:type="Edm.String">What Is Bitcoin?</d:Title>
+        <d:Description m:type="Edm.String">Maybe you've heard of Bitcoin&#8212;it wants to shake the entire global economy, and has become the financial bubble du jour with a skyrocketing value.</d:Description>
+        <d:DisplayUrl m:type="Edm.String">gizmodo.com/5803124</d:DisplayUrl>
+        <d:Url m:type="Edm.String">http://gizmodo.com/5803124/what-is-bitcoin</d:Url>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.datamarket.azure.com/Data.ashx/Bing/SearchWeb/v1/Web?Query='bitcoin'&amp;$skip=13&amp;$top=1</id>
+    <title type="text">WebResult</title>
+    <updated>2013-11-26T16:05:09Z</updated>
+    <content type="application/xml">
+      <m:properties>
+        <d:ID m:type="Edm.Guid">17be30ba-890d-4087-8743-8d5e2458738b</d:ID>
+        <d:Title m:type="Edm.String">What Is Bitcoin and What Can I Do With It?</d:Title>
+        <d:Description m:type="Edm.String">Dear Lifehacker, Everywhere I go, I see Bitcoin popping up more and more. Many web services accept payments in the form of Bitcoin, and some even sell ...</d:Description>
+        <d:DisplayUrl m:type="Edm.String">lifehacker.com/5991523</d:DisplayUrl>
+        <d:Url m:type="Edm.String">http://lifehacker.com/5991523/what-is-bitcoin-and-what-can-i-do-with-it</d:Url>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.datamarket.azure.com/Data.ashx/Bing/SearchWeb/v1/Web?Query='bitcoin'&amp;$skip=14&amp;$top=1</id>
+    <title type="text">WebResult</title>
+    <updated>2013-11-26T16:05:09Z</updated>
+    <content type="application/xml">
+      <m:properties>
+        <d:ID m:type="Edm.Guid">91a7cee7-4b0d-4111-9d63-24f98a05ff9a</d:ID>
+        <d:Title m:type="Edm.String">Bitcoin | TechCrunch</d:Title>
+        <d:Description m:type="Edm.String">Bitcoin, the cryptocurrency on everyone&#8217;s mind, is booming in value. Currently trading around $645 per coin, it has never been worth more, or generated more ...</d:Description>
+        <d:DisplayUrl m:type="Edm.String">techcrunch.com/tag/bitcoin</d:DisplayUrl>
+        <d:Url m:type="Edm.String">http://techcrunch.com/tag/bitcoin/</d:Url>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.datamarket.azure.com/Data.ashx/Bing/SearchWeb/v1/Web?Query='bitcoin'&amp;$skip=15&amp;$top=1</id>
+    <title type="text">WebResult</title>
+    <updated>2013-11-26T16:05:09Z</updated>
+    <content type="application/xml">
+      <m:properties>
+        <d:ID m:type="Edm.Guid">d7be1189-05b3-4ea6-935f-b468ea168c58</d:ID>
+        <d:Title m:type="Edm.String">Bitcoin - reddit</d:Title>
+        <d:Description m:type="Edm.String">Bitcoin is the currency of the Internet: a distributed, worldwide, decentralized digital money. Unlike traditional currencies such as dollars, bitcoins are ...</d:Description>
+        <d:DisplayUrl m:type="Edm.String">www.reddit.com/r/Bitcoin</d:DisplayUrl>
+        <d:Url m:type="Edm.String">http://www.reddit.com/r/Bitcoin/</d:Url>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.datamarket.azure.com/Data.ashx/Bing/SearchWeb/v1/Web?Query='bitcoin'&amp;$skip=16&amp;$top=1</id>
+    <title type="text">WebResult</title>
+    <updated>2013-11-26T16:05:09Z</updated>
+    <content type="application/xml">
+      <m:properties>
+        <d:ID m:type="Edm.Guid">031d2369-9a2a-4844-9775-e1e6b33f7918</d:ID>
+        <d:Title m:type="Edm.String">Rise of Bitcoin: Is the digital currency a solution or a ...</d:Title>
+        <d:Description m:type="Edm.String">Rise of Bitcoin: Is the digital currency a solution or a menace? (+video) Convenient and anonymous, alluring and alarming, Bitcoin and other ...</d:Description>
+        <d:DisplayUrl m:type="Edm.String">www.csmonitor.com/USA/2013/1123/Rise-of-Bitcoin-Is-the-digital...</d:DisplayUrl>
+        <d:Url m:type="Edm.String">http://www.csmonitor.com/USA/2013/1123/Rise-of-Bitcoin-Is-the-digital-currency-a-solution-or-a-menace-video</d:Url>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.datamarket.azure.com/Data.ashx/Bing/SearchWeb/v1/Web?Query='bitcoin'&amp;$skip=17&amp;$top=1</id>
+    <title type="text">WebResult</title>
+    <updated>2013-11-26T16:05:09Z</updated>
+    <content type="application/xml">
+      <m:properties>
+        <d:ID m:type="Edm.Guid">8ce08676-816d-46f0-ac96-1a370d1c6c23</d:ID>
+        <d:Title m:type="Edm.String">A China Triangle: Bitcoin, Baidu And Beijing - Forbes</d:Title>
+        <d:Description m:type="Edm.String">Thinking of buying trinkets in Beijing? Don&#8217;t forget to bring your Bitcoins. China, in the last few weeks, has gone crazy over the cryptocurrency, which ...</d:Description>
+        <d:DisplayUrl m:type="Edm.String">www.forbes.com/.../11/24/a-china-triangle-bitcoin-baidu-and-beijing</d:DisplayUrl>
+        <d:Url m:type="Edm.String">http://www.forbes.com/sites/gordonchang/2013/11/24/a-china-triangle-bitcoin-baidu-and-beijing/</d:Url>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.datamarket.azure.com/Data.ashx/Bing/SearchWeb/v1/Web?Query='bitcoin'&amp;$skip=18&amp;$top=1</id>
+    <title type="text">WebResult</title>
+    <updated>2013-11-26T16:05:09Z</updated>
+    <content type="application/xml">
+      <m:properties>
+        <d:ID m:type="Edm.Guid">1f94c85d-fca3-4380-8cbc-35b5b1d6ef55</d:ID>
+        <d:Title m:type="Edm.String">Bitcoin</d:Title>
+        <d:Description m:type="Edm.String">Bitcoin is an experimental, decentralized digital currency that enables instant payments to anyone, anywhere in the world. Bitcoin uses peer-to-peer technology to ...</d:Description>
+        <d:DisplayUrl m:type="Edm.String">https://en.bitcoin.it</d:DisplayUrl>
+        <d:Url m:type="Edm.String">https://en.bitcoin.it/wiki/Main_Page</d:Url>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.datamarket.azure.com/Data.ashx/Bing/SearchWeb/v1/Web?Query='bitcoin'&amp;$skip=19&amp;$top=1</id>
+    <title type="text">WebResult</title>
+    <updated>2013-11-26T16:05:09Z</updated>
+    <content type="application/xml">
+      <m:properties>
+        <d:ID m:type="Edm.Guid">85d8d311-f50e-4966-8e02-11fc738e05b2</d:ID>
+        <d:Title m:type="Edm.String">Bitcoin - Bitcoin</d:Title>
+        <d:Description m:type="Edm.String">Bitcoin is a decentralized digital currency created by developer Satoshi Nakamoto. It does not rely on a central server to process transactions or store funds.</d:Description>
+        <d:DisplayUrl m:type="Edm.String">https://en.bitcoin.it/wiki/Bitcoin</d:DisplayUrl>
+        <d:Url m:type="Edm.String">https://en.bitcoin.it/wiki/Bitcoin</d:Url>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.datamarket.azure.com/Data.ashx/Bing/SearchWeb/v1/Web?Query='bitcoin'&amp;$skip=20&amp;$top=1</id>
+    <title type="text">WebResult</title>
+    <updated>2013-11-26T16:05:09Z</updated>
+    <content type="application/xml">
+      <m:properties>
+        <d:ID m:type="Edm.Guid">35ab175c-b0cd-4200-b707-ff060c076ebb</d:ID>
+        <d:Title m:type="Edm.String">Why do bitcoin exchanges quote different prices?</d:Title>
+        <d:Description m:type="Edm.String">Here at The Switch, we love it when our writing sparks a new idea or raises a new question. So that's why, every weekend, we pull together some of the week's most ...</d:Description>
+        <d:DisplayUrl m:type="Edm.String">www.washingtonpost.com/blogs/.../24/why-do-bitcoin-exchanges-quote...</d:DisplayUrl>
+        <d:Url m:type="Edm.String">http://www.washingtonpost.com/blogs/the-switch/wp/2013/11/24/why-do-bitcoin-exchanges-quote-different-prices/</d:Url>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.datamarket.azure.com/Data.ashx/Bing/SearchWeb/v1/Web?Query='bitcoin'&amp;$skip=21&amp;$top=1</id>
+    <title type="text">WebResult</title>
+    <updated>2013-11-26T16:05:09Z</updated>
+    <content type="application/xml">
+      <m:properties>
+        <d:ID m:type="Edm.Guid">ca513434-e104-48fa-8d98-44c050d160e5</d:ID>
+        <d:Title m:type="Edm.String">Bitcoin | Free software downloads at SourceForge.net</d:Title>
+        <d:Description m:type="Edm.String">Bitcoin is a decentralized P2P electronic cash system without a central server or trusted parties. Users hold the crypto keys to their own money and &#8230;</d:Description>
+        <d:DisplayUrl m:type="Edm.String">sourceforge.net/projects/bitcoin</d:DisplayUrl>
+        <d:Url m:type="Edm.String">http://sourceforge.net/projects/bitcoin/</d:Url>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.datamarket.azure.com/Data.ashx/Bing/SearchWeb/v1/Web?Query='bitcoin'&amp;$skip=22&amp;$top=1</id>
+    <title type="text">WebResult</title>
+    <updated>2013-11-26T16:05:09Z</updated>
+    <content type="application/xml">
+      <m:properties>
+        <d:ID m:type="Edm.Guid">ce0a5c4b-c82a-4e6f-b1a5-4a2a75567b3a</d:ID>
+        <d:Title m:type="Edm.String">In Bitcoin's Orbit: Rival Virtual Currencies Vie for ...</d:Title>
+        <d:Description m:type="Edm.String">Bitcoin is not alone. The virtual universe has spawned a few dozen alternatives, with varying reserves, computer mining requirements and privacy.</d:Description>
+        <d:DisplayUrl m:type="Edm.String">dealbook.nytimes.com/2013/11/24/in-bitcoins-orbit-rival-virtual...</d:DisplayUrl>
+        <d:Url m:type="Edm.String">http://dealbook.nytimes.com/2013/11/24/in-bitcoins-orbit-rival-virtual-currencies-vie-for-acceptance/</d:Url>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.datamarket.azure.com/Data.ashx/Bing/SearchWeb/v1/Web?Query='bitcoin'&amp;$skip=23&amp;$top=1</id>
+    <title type="text">WebResult</title>
+    <updated>2013-11-26T16:05:09Z</updated>
+    <content type="application/xml">
+      <m:properties>
+        <d:ID m:type="Edm.Guid">57410f98-e50e-4547-8a6e-75f8182a066b</d:ID>
+        <d:Title m:type="Edm.String">Bitcoin</d:Title>
+        <d:Description m:type="Edm.String">Bitcoin is absolutely ideal for charitable organizations that are doing amazing great work in the world, like EpicChange.org, for example.</d:Description>
+        <d:DisplayUrl m:type="Edm.String">bitcoinme.com</d:DisplayUrl>
+        <d:Url m:type="Edm.String">http://bitcoinme.com/</d:Url>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.datamarket.azure.com/Data.ashx/Bing/SearchWeb/v1/Web?Query='bitcoin'&amp;$skip=24&amp;$top=1</id>
+    <title type="text">WebResult</title>
+    <updated>2013-11-26T16:05:09Z</updated>
+    <content type="application/xml">
+      <m:properties>
+        <d:ID m:type="Edm.Guid">42a6f831-3a30-4245-9908-2bd25c5b0e85</d:ID>
+        <d:Title m:type="Edm.String">Richard Branson: Buy your space flight with bitcoin - NBC News.com</d:Title>
+        <d:Description m:type="Edm.String">Billionaire entrepreneur Sir Richard Branson announced on CNBC's "Squawk Box" Friday that his commercial space flight venture will accept bitcoin as payment. He ...</d:Description>
+        <d:DisplayUrl m:type="Edm.String">www.nbcnews.com/technology/...buy-your-space-flight-bitcoin-2D11641781</d:DisplayUrl>
+        <d:Url m:type="Edm.String">http://www.nbcnews.com/technology/richard-branson-buy-your-space-flight-bitcoin-2D11641781</d:Url>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.datamarket.azure.com/Data.ashx/Bing/SearchWeb/v1/Web?Query='bitcoin'&amp;$skip=25&amp;$top=1</id>
+    <title type="text">WebResult</title>
+    <updated>2013-11-26T16:05:09Z</updated>
+    <content type="application/xml">
+      <m:properties>
+        <d:ID m:type="Edm.Guid">e7662e55-d336-41f2-86e5-2dc145f1c406</d:ID>
+        <d:Title m:type="Edm.String">bitcoin | eBay - Electronics, Cars, Fashion, Collectibles ...</d:Title>
+        <d:Description m:type="Edm.String">Find great deals on eBay for bitcoin and 1 bitcoin. Shop with confidence.</d:Description>
+        <d:DisplayUrl m:type="Edm.String">www.ebay.com/sch/i.html?_nkw=bitcoin</d:DisplayUrl>
+        <d:Url m:type="Edm.String">http://www.ebay.com/sch/i.html?_nkw=bitcoin</d:Url>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.datamarket.azure.com/Data.ashx/Bing/SearchWeb/v1/Web?Query='bitcoin'&amp;$skip=26&amp;$top=1</id>
+    <title type="text">WebResult</title>
+    <updated>2013-11-26T16:05:09Z</updated>
+    <content type="application/xml">
+      <m:properties>
+        <d:ID m:type="Edm.Guid">db7a925f-0498-40bb-bc19-8399281e3fd8</d:ID>
+        <d:Title m:type="Edm.String">Bitcoin Forum - Index</d:Title>
+        <d:Description m:type="Edm.String">The main Bitcoin discussion forum, includes subforums for technical support, mining, development and economics.</d:Description>
+        <d:DisplayUrl m:type="Edm.String">https://bitcointalk.org</d:DisplayUrl>
+        <d:Url m:type="Edm.String">https://bitcointalk.org/</d:Url>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.datamarket.azure.com/Data.ashx/Bing/SearchWeb/v1/Web?Query='bitcoin'&amp;$skip=27&amp;$top=1</id>
+    <title type="text">WebResult</title>
+    <updated>2013-11-26T16:05:09Z</updated>
+    <content type="application/xml">
+      <m:properties>
+        <d:ID m:type="Edm.Guid">d121fc02-1b9a-4ac3-9a11-0bc75f2e6de3</d:ID>
+        <d:Title m:type="Edm.String">What is Bitcoin? - YouTube</d:Title>
+        <d:Description m:type="Edm.String">More information on http://www.weusecoins.com This video is a short animated introduction to Bitcoin, made possible with donations from the Bitcoin ...</d:Description>
+        <d:DisplayUrl m:type="Edm.String">www.youtube.com/watch?v=Um63OQz3bjo</d:DisplayUrl>
+        <d:Url m:type="Edm.String">http://www.youtube.com/watch?v=Um63OQz3bjo</d:Url>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.datamarket.azure.com/Data.ashx/Bing/SearchWeb/v1/Web?Query='bitcoin'&amp;$skip=28&amp;$top=1</id>
+    <title type="text">WebResult</title>
+    <updated>2013-11-26T16:05:09Z</updated>
+    <content type="application/xml">
+      <m:properties>
+        <d:ID m:type="Edm.Guid">f08973e0-d281-49c0-9ab9-5335ce83ee24</d:ID>
+        <d:Title m:type="Edm.String">Bitcoin News | Bitcoin Exchange | Bitcoin Exchange Rates ...</d:Title>
+        <d:Description m:type="Edm.String">ForexMinute Now provides updated exchange rates, bitcoin news and valuable information for Bitcoin, USD, and more.</d:Description>
+        <d:DisplayUrl m:type="Edm.String">www.forexminute.com/bitcoin</d:DisplayUrl>
+        <d:Url m:type="Edm.String">http://www.forexminute.com/bitcoin</d:Url>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.datamarket.azure.com/Data.ashx/Bing/SearchWeb/v1/Web?Query='bitcoin'&amp;$skip=29&amp;$top=1</id>
+    <title type="text">WebResult</title>
+    <updated>2013-11-26T16:05:09Z</updated>
+    <content type="application/xml">
+      <m:properties>
+        <d:ID m:type="Edm.Guid">3b708c03-3961-4335-bca2-768008b7f3a8</d:ID>
+        <d:Title m:type="Edm.String">Authorities See Benefit of Bitcoin - WSJ.com</d:Title>
+        <d:Description m:type="Edm.String">Senior U.S. law-enforcement and regulatory officials said they see benefits in digital forms of money. The price of bitcoin, the most common virtual ...</d:Description>
+        <d:DisplayUrl m:type="Edm.String">online.wsj.com/news/articles/SB...</d:DisplayUrl>
+        <d:Url m:type="Edm.String">http://online.wsj.com/news/articles/SB10001424052702304439804579205740125297358</d:Url>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.datamarket.azure.com/Data.ashx/Bing/SearchWeb/v1/Web?Query='bitcoin'&amp;$skip=30&amp;$top=1</id>
+    <title type="text">WebResult</title>
+    <updated>2013-11-26T16:05:09Z</updated>
+    <content type="application/xml">
+      <m:properties>
+        <d:ID m:type="Edm.Guid">76aee4f5-7c52-4330-8311-687b4d377a56</d:ID>
+        <d:Title m:type="Edm.String">Everything you need to know about bitcoin - The Cody Word ...</d:Title>
+        <d:Description m:type="Edm.String">Is bitcoin going to hit critical mass and end up going mainstream? Is it possible that bitcoin goes up another 10-fold or more if all these bitcoin ...</d:Description>
+        <d:DisplayUrl m:type="Edm.String">blogs.marketwatch.com/.../12/everything-you-need-to-know-about-bitcoin</d:DisplayUrl>
+        <d:Url m:type="Edm.String">http://blogs.marketwatch.com/cody/2013/11/12/everything-you-need-to-know-about-bitcoin/</d:Url>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.datamarket.azure.com/Data.ashx/Bing/SearchWeb/v1/Web?Query='bitcoin'&amp;$skip=31&amp;$top=1</id>
+    <title type="text">WebResult</title>
+    <updated>2013-11-26T16:05:09Z</updated>
+    <content type="application/xml">
+      <m:properties>
+        <d:ID m:type="Edm.Guid">1325fd23-c8ff-4875-be3b-67cb6738fcd3</d:ID>
+        <d:Title m:type="Edm.String">What is Bitcoin Mining?</d:Title>
+        <d:Description m:type="Edm.String">Bitcoin miners help keep the Bitcoin network secure by approving transaction. Mining is an important and integral part of Bitcoin that ensures fairness while ...</d:Description>
+        <d:DisplayUrl m:type="Edm.String">www.bitcoinmining.com</d:DisplayUrl>
+        <d:Url m:type="Edm.String">http://www.bitcoinmining.com/</d:Url>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.datamarket.azure.com/Data.ashx/Bing/SearchWeb/v1/Web?Query='bitcoin'&amp;$skip=32&amp;$top=1</id>
+    <title type="text">WebResult</title>
+    <updated>2013-11-26T16:05:09Z</updated>
+    <content type="application/xml">
+      <m:properties>
+        <d:ID m:type="Edm.Guid">388fb3e0-01e5-4a03-bfc6-ea3b5851d9c5</d:ID>
+        <d:Title m:type="Edm.String">Bitcoin's tipping point - The Term Sheet: Fortune's deals ...</d:Title>
+        <d:Description m:type="Edm.String">The four-year-old virtual currency was once dismissed as something of a fad that only gangsters and drug dealers used, but in recent weeks, it has found ...</d:Description>
+        <d:DisplayUrl m:type="Edm.String">finance.fortune.cnn.com/2013/11/19/bitcoin-credibility-bernanke</d:DisplayUrl>
+        <d:Url m:type="Edm.String">http://finance.fortune.cnn.com/2013/11/19/bitcoin-credibility-bernanke/</d:Url>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.datamarket.azure.com/Data.ashx/Bing/SearchWeb/v1/Web?Query='bitcoin'&amp;$skip=33&amp;$top=1</id>
+    <title type="text">WebResult</title>
+    <updated>2013-11-26T16:05:09Z</updated>
+    <content type="application/xml">
+      <m:properties>
+        <d:ID m:type="Edm.Guid">b67df0a4-de2a-4505-85aa-727ced79e01c</d:ID>
+        <d:Title m:type="Edm.String">Bitcoin - Simple English Wikipedia, the free encyclopedia</d:Title>
+        <d:Description m:type="Edm.String">Bitcoin is a digital and global money system (currency). It was created in 2009 by a person or group of people under the alias Satoshi Nakamoto. Unlike most ...</d:Description>
+        <d:DisplayUrl m:type="Edm.String">simple.wikipedia.org/wiki/Bitcoin</d:DisplayUrl>
+        <d:Url m:type="Edm.String">http://simple.wikipedia.org/wiki/Bitcoin</d:Url>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.datamarket.azure.com/Data.ashx/Bing/SearchWeb/v1/Web?Query='bitcoin'&amp;$skip=34&amp;$top=1</id>
+    <title type="text">WebResult</title>
+    <updated>2013-11-26T16:05:09Z</updated>
+    <content type="application/xml">
+      <m:properties>
+        <d:ID m:type="Edm.Guid">3c812c20-96fe-4019-a4fc-36688e54707a</d:ID>
+        <d:Title m:type="Edm.String">A Bitcoin Insider On Crime, Congress And Satoshi Nakamoto ...</d:Title>
+        <d:Description m:type="Edm.String">For more on what Bitcoin is and how it works, see our story "What Is Bitcoin?" Gavin Andresen is chief scientist at the Bitcoin Foundation. I first talked ...</d:Description>
+        <d:DisplayUrl m:type="Edm.String">www.npr.org/blogs/money/2013/11/22/246611393/a-bitcoin-insider-on...</d:DisplayUrl>
+        <d:Url m:type="Edm.String">http://www.npr.org/blogs/money/2013/11/22/246611393/a-bitcoin-insider-on-crime-congress-and-satoshi-nakamoto</d:Url>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.datamarket.azure.com/Data.ashx/Bing/SearchWeb/v1/Web?Query='bitcoin'&amp;$skip=35&amp;$top=1</id>
+    <title type="text">WebResult</title>
+    <updated>2013-11-26T16:05:09Z</updated>
+    <content type="application/xml">
+      <m:properties>
+        <d:ID m:type="Edm.Guid">9e2a3fa2-720a-47e0-aa13-e263b4b69a3c</d:ID>
+        <d:Title m:type="Edm.String">Bitcoin hits $750, up 107% in a week</d:Title>
+        <d:Description m:type="Edm.String">Bitcoin touched a fresh all-time high on Monday as the digital currency continued to gain favor with investors. The virtual currency rose to $750 on Mt ...</d:Description>
+        <d:DisplayUrl m:type="Edm.String">www.cnbc.com/id/101205416</d:DisplayUrl>
+        <d:Url m:type="Edm.String">http://www.cnbc.com/id/101205416</d:Url>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.datamarket.azure.com/Data.ashx/Bing/SearchWeb/v1/Web?Query='bitcoin'&amp;$skip=36&amp;$top=1</id>
+    <title type="text">WebResult</title>
+    <updated>2013-11-26T16:05:09Z</updated>
+    <content type="application/xml">
+      <m:properties>
+        <d:ID m:type="Edm.Guid">1c6d2edc-6da7-4c4b-860b-8eedd1b3034d</d:ID>
+        <d:Title m:type="Edm.String">Bitcoin - The Huffington Post</d:Title>
+        <d:Description m:type="Edm.String">Big Bang is where numerous professionals gather to discuss the future and the present. The latest edition featured presentations and discussions about ...</d:Description>
+        <d:DisplayUrl m:type="Edm.String">www.huffingtonpost.com/news/bitcoin</d:DisplayUrl>
+        <d:Url m:type="Edm.String">http://www.huffingtonpost.com/news/bitcoin/</d:Url>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.datamarket.azure.com/Data.ashx/Bing/SearchWeb/v1/Web?Query='bitcoin'&amp;$skip=37&amp;$top=1</id>
+    <title type="text">WebResult</title>
+    <updated>2013-11-26T16:05:09Z</updated>
+    <content type="application/xml">
+      <m:properties>
+        <d:ID m:type="Edm.Guid">d1bf6e4a-d52a-465f-a788-d68337fcd3b7</d:ID>
+        <d:Title m:type="Edm.String">Bitcoin | CrunchBase Profile</d:Title>
+        <d:Description m:type="Edm.String">Bitcoin is a digital currency, a protocol, and open-source software and enables instant worldwide peer to peer transactions for little</d:Description>
+        <d:DisplayUrl m:type="Edm.String">www.crunchbase.com/company/bitcoin</d:DisplayUrl>
+        <d:Url m:type="Edm.String">http://www.crunchbase.com/company/bitcoin</d:Url>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.datamarket.azure.com/Data.ashx/Bing/SearchWeb/v1/Web?Query='bitcoin'&amp;$skip=38&amp;$top=1</id>
+    <title type="text">WebResult</title>
+    <updated>2013-11-26T16:05:09Z</updated>
+    <content type="application/xml">
+      <m:properties>
+        <d:ID m:type="Edm.Guid">77ce92a6-3df1-4b6e-9d55-1dd7dd47bd92</d:ID>
+        <d:Title m:type="Edm.String">Bitcoin Foundation</d:Title>
+        <d:Description m:type="Edm.String">Bitcoin Foundation standardizes, protects and promotes the use of Bitcoin cryptographic money for the benefit of users worldwide.</d:Description>
+        <d:DisplayUrl m:type="Edm.String">https://bitcoinfoundation.org</d:DisplayUrl>
+        <d:Url m:type="Edm.String">https://bitcoinfoundation.org/</d:Url>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.datamarket.azure.com/Data.ashx/Bing/SearchWeb/v1/Web?Query='bitcoin'&amp;$skip=39&amp;$top=1</id>
+    <title type="text">WebResult</title>
+    <updated>2013-11-26T16:05:09Z</updated>
+    <content type="application/xml">
+      <m:properties>
+        <d:ID m:type="Edm.Guid">5f328685-8285-4fa4-a911-d2fe0d9b3969</d:ID>
+        <d:Title m:type="Edm.String">Sir Richard Branson's Out of This World Plan for Bitcoin ...</d:Title>
+        <d:Description m:type="Edm.String">From the blog Breakout: Bitcoin's good enough for Richard Branson, is it good enough for you? Market veteran Peter Kenny breaks down the bitcoin explosion</d:Description>
+        <d:DisplayUrl m:type="Edm.String">finance.yahoo.com/.../sir...this-world-plan-for-bitcoin-190837979.html</d:DisplayUrl>
+        <d:Url m:type="Edm.String">http://finance.yahoo.com/blogs/breakout/sir-richard-branson-s-out-of-this-world-plan-for-bitcoin-190837979.html</d:Url>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.datamarket.azure.com/Data.ashx/Bing/SearchWeb/v1/Web?Query='bitcoin'&amp;$skip=40&amp;$top=1</id>
+    <title type="text">WebResult</title>
+    <updated>2013-11-26T16:05:09Z</updated>
+    <content type="application/xml">
+      <m:properties>
+        <d:ID m:type="Edm.Guid">966164bf-5c49-4665-89be-019b00e6a241</d:ID>
+        <d:Title m:type="Edm.String">Bitcoin (Bitcoin) on Twitter</d:Title>
+        <d:Description m:type="Edm.String">The latest from Bitcoin (@Bitcoin). Decentralized crypto currency. See http://bitcoin.org for more information. Everywhere</d:Description>
+        <d:DisplayUrl m:type="Edm.String">twitter.com/bitcoin</d:DisplayUrl>
+        <d:Url m:type="Edm.String">http://twitter.com/bitcoin</d:Url>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.datamarket.azure.com/Data.ashx/Bing/SearchWeb/v1/Web?Query='bitcoin'&amp;$skip=41&amp;$top=1</id>
+    <title type="text">WebResult</title>
+    <updated>2013-11-26T16:05:09Z</updated>
+    <content type="application/xml">
+      <m:properties>
+        <d:ID m:type="Edm.Guid">4ea4fc56-5d98-4b3a-b657-4316eb98a2f7</d:ID>
+        <d:Title m:type="Edm.String">Cypriot University to Accept Bitcoin Payments - ABC News</d:Title>
+        <d:Description m:type="Edm.String">Cyprus' biggest private university said Thursday it will start accepting the digital currency Bitcoin as an alternative way to pay tuition fees. The ...</d:Description>
+        <d:DisplayUrl m:type="Edm.String">abcnews.go.com/.../cypriot-university-accept-bitcoin-payments-20962556</d:DisplayUrl>
+        <d:Url m:type="Edm.String">http://abcnews.go.com/Technology/wireStory/cypriot-university-accept-bitcoin-payments-20962556</d:Url>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.datamarket.azure.com/Data.ashx/Bing/SearchWeb/v1/Web?Query='bitcoin'&amp;$skip=42&amp;$top=1</id>
+    <title type="text">WebResult</title>
+    <updated>2013-11-26T16:05:09Z</updated>
+    <content type="application/xml">
+      <m:properties>
+        <d:ID m:type="Edm.Guid">c38f7634-37ae-49bb-a896-c15d97f725f3</d:ID>
+        <d:Title m:type="Edm.String">Bitcoin News, Videos, Reviews and Gossip - Gizmodo</d:Title>
+        <d:Description m:type="Edm.String">Congratulations to all aspiring crypto-currency cosmonauts out there; you'll soon be able to use Bitcoin, everyone's favorite pseudomonetary bubble, to book flights ...</d:Description>
+        <d:DisplayUrl m:type="Edm.String">gizmodo.com/tag/bitcoin</d:DisplayUrl>
+        <d:Url m:type="Edm.String">http://gizmodo.com/tag/bitcoin</d:Url>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.datamarket.azure.com/Data.ashx/Bing/SearchWeb/v1/Web?Query='bitcoin'&amp;$skip=43&amp;$top=1</id>
+    <title type="text">WebResult</title>
+    <updated>2013-11-26T16:05:09Z</updated>
+    <content type="application/xml">
+      <m:properties>
+        <d:ID m:type="Edm.Guid">97433145-84d5-4b3e-b314-0695f3d66514</d:ID>
+        <d:Title m:type="Edm.String">Bitcoin</d:Title>
+        <d:Description m:type="Edm.String">Bitcoin is an idea whose time has arrived. Bitcoin will change the financial system as much as the internet changed the way we communicate. Imagine a payment system ...</d:Description>
+        <d:DisplayUrl m:type="Edm.String">miningbitcoins.net</d:DisplayUrl>
+        <d:Url m:type="Edm.String">http://miningbitcoins.net/</d:Url>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.datamarket.azure.com/Data.ashx/Bing/SearchWeb/v1/Web?Query='bitcoin'&amp;$skip=44&amp;$top=1</id>
+    <title type="text">WebResult</title>
+    <updated>2013-11-26T16:05:09Z</updated>
+    <content type="application/xml">
+      <m:properties>
+        <d:ID m:type="Edm.Guid">37fde8f0-7674-4944-b2ce-014dd6afcaab</d:ID>
+        <d:Title m:type="Edm.String">Bitcoin Definition | Investopedia</d:Title>
+        <d:Description m:type="Edm.String">Definition of 'Bitcoin' A digital or virtual currency that uses peer-to-peer technology to facilitate instant payments. Bitcoin is a type of alternative currency ...</d:Description>
+        <d:DisplayUrl m:type="Edm.String">www.investopedia.com/terms/b/bitcoin.asp</d:DisplayUrl>
+        <d:Url m:type="Edm.String">http://www.investopedia.com/terms/b/bitcoin.asp</d:Url>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.datamarket.azure.com/Data.ashx/Bing/SearchWeb/v1/Web?Query='bitcoin'&amp;$skip=45&amp;$top=1</id>
+    <title type="text">WebResult</title>
+    <updated>2013-11-26T16:05:09Z</updated>
+    <content type="application/xml">
+      <m:properties>
+        <d:ID m:type="Edm.Guid">6d5604d1-196c-42c1-ab35-647384c060ae</d:ID>
+        <d:Title m:type="Edm.String">Bitcoin Surges 24% to New High as Popularity Grows - DailyFinance</d:Title>
+        <d:Description m:type="Edm.String">Bitcoin touched a fresh all-time high Monday as the digital currency continued to gain favor with investors.</d:Description>
+        <d:DisplayUrl m:type="Edm.String">www.dailyfinance.com/2013/11/18/bitcoin-virtual-currency-surges...</d:DisplayUrl>
+        <d:Url m:type="Edm.String">http://www.dailyfinance.com/2013/11/18/bitcoin-virtual-currency-surges-new-high-popularity-grows/</d:Url>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.datamarket.azure.com/Data.ashx/Bing/SearchWeb/v1/Web?Query='bitcoin'&amp;$skip=46&amp;$top=1</id>
+    <title type="text">WebResult</title>
+    <updated>2013-11-26T16:05:09Z</updated>
+    <content type="application/xml">
+      <m:properties>
+        <d:ID m:type="Edm.Guid">756b7a51-2ed4-4eb4-a901-6d52d76a6ee3</d:ID>
+        <d:Title m:type="Edm.String">Bitcoin: Monetarists Anonymous | The Economist</d:Title>
+        <d:Description m:type="Edm.String">&#8220;GIVE me control of a nation&#8217;s money supply, and I care not who makes its laws.&#8221; So said Mayer Amschel Rothschild, founder of the Rothschild banking ...</d:Description>
+        <d:DisplayUrl m:type="Edm.String">www.economist.com/node/21563752</d:DisplayUrl>
+        <d:Url m:type="Edm.String">http://www.economist.com/node/21563752</d:Url>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.datamarket.azure.com/Data.ashx/Bing/SearchWeb/v1/Web?Query='bitcoin'&amp;$skip=47&amp;$top=1</id>
+    <title type="text">WebResult</title>
+    <updated>2013-11-26T16:05:09Z</updated>
+    <content type="application/xml">
+      <m:properties>
+        <d:ID m:type="Edm.Guid">549f6c6f-af4a-4253-b1e0-be1318adab8a</d:ID>
+        <d:Title m:type="Edm.String">Start BitCoin</d:Title>
+        <d:Description m:type="Edm.String">The best resource for learning how to mine bitcoins and other bitcoin mining essentials.</d:Description>
+        <d:DisplayUrl m:type="Edm.String">startbitcoin.com</d:DisplayUrl>
+        <d:Url m:type="Edm.String">http://startbitcoin.com/</d:Url>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.datamarket.azure.com/Data.ashx/Bing/SearchWeb/v1/Web?Query='bitcoin'&amp;$skip=48&amp;$top=1</id>
+    <title type="text">WebResult</title>
+    <updated>2013-11-26T16:05:09Z</updated>
+    <content type="application/xml">
+      <m:properties>
+        <d:ID m:type="Edm.Guid">287d55f0-0cad-451e-9b1c-c0b11e7d5d70</d:ID>
+        <d:Title m:type="Edm.String">Bitcoin Charts / Charts</d:Title>
+        <d:Description m:type="Edm.String">Bitcoin Charts. Blocks: 271448: Total BTC: 12.036M: Difficulty: 609482680: Estimated: 673556185 in 712 blks: Network total: 5161.258 Thash/s: Blocks/hour: 7.10 / 507 ...</d:Description>
+        <d:DisplayUrl m:type="Edm.String">bitcoincharts.com/charts</d:DisplayUrl>
+        <d:Url m:type="Edm.String">http://bitcoincharts.com/charts/</d:Url>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://api.datamarket.azure.com/Data.ashx/Bing/SearchWeb/v1/Web?Query='bitcoin'&amp;$skip=49&amp;$top=1</id>
+    <title type="text">WebResult</title>
+    <updated>2013-11-26T16:05:09Z</updated>
+    <content type="application/xml">
+      <m:properties>
+        <d:ID m:type="Edm.Guid">7b6c1791-2690-4106-bf3a-4b8b1440262a</d:ID>
+        <d:Title m:type="Edm.String">Napster Documentarian's Next Project: The Untold Story of ...</d:Title>
+        <d:Description m:type="Edm.String">Alex Winter's latest documentary will look at Bitcoin, the uber-popular digital currency that he first became fascinated with while still working on his earlier file ...</d:Description>
+        <d:DisplayUrl m:type="Edm.String">www.wired.com/underwire/2013/11/bitcoin-documentary</d:DisplayUrl>
+        <d:Url m:type="Edm.String">http://www.wired.com/underwire/2013/11/bitcoin-documentary/</d:Url>
+      </m:properties>
+    </content>
+  </entry>
+</feed>
