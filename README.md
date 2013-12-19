@@ -1,4 +1,4 @@
 inquire
 =======
 
-Simple factoid question answering
+Simple factoid question answering system

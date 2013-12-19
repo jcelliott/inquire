@@ -38,5 +38,6 @@ nosetests.xml
 # Project-specific resources
 resources/stanford-ner
 resources/classification
-classification/data/models
+inquire/classification/data/models
 config_local.py
+*.pkl*
