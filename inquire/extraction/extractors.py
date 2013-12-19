@@ -9,7 +9,7 @@ import logging as log
 import nltk
 from ner import SocketNER
 
-import config
+from inquire import config
 
 question_types = {
     'DESC': 'description',

@@ -2,7 +2,7 @@
 # Uses Bing web search API to retrieve documents
 
 from bing_search_api import BingSearchAPI
-import config
+from inquire import config
 import json
 
 import logging as log

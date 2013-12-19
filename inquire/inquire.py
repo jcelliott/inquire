@@ -11,14 +11,12 @@ from retrieval import documents
 from classification import model
 from extraction import get_extractor, NoExtractorError
 
-QUESTION_CACHE = "question_cache.txt"
-
 def answer_question(question):
     """
     Main pipeline for question answering
     Takes a question and returns the most likely answer
     """
-    log.info("answering question: "+args.question)
+    log.info("answering question: "+question)
     coarse, fine = classify_question(question)
     try:
         extractor = get_extractor(coarse, fine)
@@ -43,7 +41,7 @@ def answer_question(question):
             print_top_answers(answers)
         else:
             print_answer(answers[0][0])
-    return answers
+    return answers[0][0]
 
 def classify_question(question):
     log.info("classifying question...")
@@ -54,7 +52,7 @@ def classify_question(question):
 
 def cache_question(question, answers):
     if config.CACHE_QUESTION:
-        with codecs.open(QUESTION_CACHE, "a", "utf-8") as out:
+        with codecs.open(config.QUESTION_CACHE_FILE, "a", "utf-8") as out:
             out.write(json.dumps({str(uuid.uuid4()): {'question': question, 'answers': answers}}, ensure_ascii=False) + '\n')
 
 def print_answer(answer):

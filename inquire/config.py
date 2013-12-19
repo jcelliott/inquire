@@ -1,3 +1,4 @@
+from os import path
 import logging
 import logging.config
 
@@ -8,14 +9,15 @@ def init(debug=False):
             LOGGING['loggers'][logger]['level'] = 'DEBUG'
 
     logging.config.dictConfig(LOGGING)
-    logger = logging.getLogger(__name__)
-    logger.debug("Logging level set to DEBUG")
+    # logger = logging.getLogger(__name__)
+    logging.debug("Logging level set to DEBUG")
 
 # Run in debug mode
 DEBUG = False
 
 # Store the question and answer candidates
 CACHE_QUESTION = True
+QUESTION_CACHE_FILE = path.join(path.dirname(__file__), "question_cache.txt")
 
 # Windows Azure Marketplace primary account key. Add in config_local.py
 BING_API_KEY = ""
@@ -66,7 +68,8 @@ LOGGING = {
 
 # Load separate settings file for things that should not be under version control
 try:
-    execfile('config_local.py')
+    execfile(path.join(path.dirname(__file__), 'config_local.py'))
 except IOError:
+    logging.warn("failed to load local config")
     pass
 

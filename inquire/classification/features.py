@@ -11,7 +11,7 @@ from sklearn.base import BaseEstimator
 from sklearn.feature_extraction.text import TfidfVectorizer, CountVectorizer, VectorizerMixin
 from ner import SocketNER
 
-import config
+from inquire import config
 
 REL_WORDS_DIR = path.join(path.dirname(__file__), "data/rel_words")
 

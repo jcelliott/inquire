@@ -1,0 +1,21 @@
+{% extends "bootstrap/base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+{% import "bootstrap/fixes.html" as fixes %}
+
+{% block title %}Inquire{% endblock %}
+
+{% block content %}
+<div class="container">
+  <h1>Inquire</h1>
+  <hr>
+
+  <h2>Ask a question</h2>
+  {{ wtf.quick_form(form, button_map={'submit_button': 'primary'}) }}
+
+</div>
+{% endblock %}
+
+{% block head %}
+{{super()}}
+{{fixes.ie8()}}
+{% endblock %}
