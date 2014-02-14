@@ -1,0 +1,11 @@
+# nginx configuration for inquire
+
+server {
+    listen       80;
+    server_name  inquire.exathread.com;
+
+    location / { try_files $uri @inquire; }
+    location @inquire {
+        proxy_pass	http://localhost:9191;
+    }
+}

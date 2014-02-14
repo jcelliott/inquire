@@ -64,7 +64,7 @@ def print_top_answers(answers):
     print("Possible answers:")
     print("-"*40)
     for res in answers:
-        print(unicode(u"{0:.2f}\t{1}".format(res[1], res[0])))
+        print(u"{0:.2f}\t{1}".format(res[1], res[0]).encode("utf-8"))
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Answer a question')

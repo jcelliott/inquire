@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/usr/bin/env bash
 # setup for question answering app
 
 # start Stanford NER server

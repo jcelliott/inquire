@@ -13,7 +13,8 @@ def init(debug=False):
     logging.debug("Logging level set to DEBUG")
 
 # Run in debug mode
-DEBUG = False
+#DEBUG = False
+DEBUG = True
 
 # Store the question and answer candidates
 CACHE_QUESTION = True
@@ -52,16 +53,24 @@ LOGGING = {
         },
     },
     'handlers': {
-        'console':{
-            'level':'DEBUG',
-            'class':'logging.StreamHandler',
+        'console': {
+            'level': 'DEBUG',
+            'class': 'logging.StreamHandler',
             'formatter': 'default'
         },
+		'file': {
+			'level': 'DEBUG',
+			'class': 'logging.RotatingFileHandler',
+			'formatter': 'default',
+			'filename': 'inquire.log',
+			'maxBytes': 1024,
+			'backupCount': 3
+		},
     },
     'loggers': {
         '': {
-            'handlers':['console'],
-            'level':'INFO',
+            'handlers': ['file', 'console'],
+            'level': 'INFO',
         },
     }
 }
