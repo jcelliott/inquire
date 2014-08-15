@@ -1,9 +1,13 @@
+""" inquire configuration module """
 from os import path
 import logging
 import logging.config
 
 def init(debug=False):
+    """ initialize logging """
     if debug:
+        # TODO: create a configuration object so this isn't necessary
+        global DEBUG  # pylint: disable=global-statement
         DEBUG = True
         for logger in LOGGING['loggers']:
             LOGGING['loggers'][logger]['level'] = 'DEBUG'
@@ -58,14 +62,14 @@ LOGGING = {
             'class': 'logging.StreamHandler',
             'formatter': 'default'
         },
-		'file': {
-			'level': 'DEBUG',
-			'class': 'logging.RotatingFileHandler',
-			'formatter': 'default',
-			'filename': 'inquire.log',
-			'maxBytes': 1024,
-			'backupCount': 3
-		},
+        'file': {
+            'level': 'DEBUG',
+            'class': 'logging.RotatingFileHandler',
+            'formatter': 'default',
+            'filename': 'inquire.log',
+            'maxBytes': 1024,
+            'backupCount': 3
+        },
     },
     'loggers': {
         '': {
@@ -80,5 +84,4 @@ try:
     execfile(path.join(path.dirname(__file__), 'config_local.py'))
 except IOError:
     logging.warn("failed to load local config")
-    pass
 

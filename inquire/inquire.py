@@ -1,5 +1,7 @@
 #!/usr/bin/env python2
-# Python question answering
+
+""" Python question answering """
+
 import argparse
 import codecs
 import uuid
@@ -16,7 +18,7 @@ def answer_question(question):
     Main pipeline for question answering
     Takes a question and returns the most likely answer
     """
-    log.info("answering question: "+question)
+    log.info("answering question: " + question)
     coarse, fine = classify_question(question)
     try:
         extractor = get_extractor(coarse, fine)
@@ -31,12 +33,12 @@ def answer_question(question):
 
     # returns a sorted list of tuples
     answers = extractor(question, docs).answer()
-    if answers == None:
+    if answers is None:
         cache_question(question, [])
         log.info("No answers found!")
     else:
         cache_question(question, answers)
-        log.info("best answer: "+answers[0][0])
+        log.info("best answer: " + answers[0][0])
         if config.DEBUG:
             print_top_answers(answers)
         else:
@@ -44,6 +46,10 @@ def answer_question(question):
     return answers[0][0]
 
 def classify_question(question):
+    """
+    load the model and classify the question
+    returns the coarse and fine classes
+    """
     log.info("classifying question...")
     clf = model.Classifier().load_model()
     coarse, fine = clf.predict(question)
@@ -51,28 +57,33 @@ def classify_question(question):
     return coarse, fine
 
 def cache_question(question, answers):
+    """ write the question and answers to the cache file """
     if config.CACHE_QUESTION:
         with codecs.open(config.QUESTION_CACHE_FILE, "a", "utf-8") as out:
-            out.write(json.dumps({str(uuid.uuid4()): {'question': question, 'answers': answers}}, ensure_ascii=False) + '\n')
+            out.write(json.dumps({
+                str(uuid.uuid4()): {'question': question, 'answers': answers}
+            }, ensure_ascii=False) + '\n')
 
 def print_answer(answer):
-    print("-"*40)
-    print(u"Answer: "+answer)
-    print("-"*40)
+    """ print the selected answer """
+    print("-" * 40)
+    print(u"Answer: " + answer)
+    print("-" * 40)
 
 def print_top_answers(answers):
+    """ print all the answer candidates """
     print("Possible answers:")
-    print("-"*40)
+    print("-" * 40)
     for res in answers:
-        print(u"{0:.2f}\t{1}".format(res[1], res[0]).encode("utf-8"))
+        print(unicode(u"{0:.2f}\t{1}".format(res[1], res[0])))
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Answer a question')
     parser.add_argument("question")
     parser.add_argument("-d", "--debug", help="set logger to debug level", action="store_true")
-    parser.add_argument("-m", "--mock_search", help="don't make a real search engine request", 
+    parser.add_argument("-m", "--mock_search", help="don't make a real search engine request",
                         action="store_true")
-    parser.add_argument("-C", "--nocache", help="don't cache the question/answer", 
+    parser.add_argument("-C", "--nocache", help="don't cache the question/answer",
                         action="store_true")
     args = parser.parse_args()
     config.init(debug=args.debug)

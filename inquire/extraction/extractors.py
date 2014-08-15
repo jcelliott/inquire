@@ -1,4 +1,4 @@
-# Answer extraction for QA
+""" Answer extraction for QA """
 
 from operator import itemgetter
 from collections import defaultdict
@@ -47,8 +47,8 @@ class BaseExtractor(object):
     def preprocess(self, pos=False, ner=False, tok_q=True):
         log.debug("preprocessing documents")
         if tok_q:
-            self.tok_question = unicode(self.question).translate(self.delete_punctuation_map).lower()
-            self.tok_question = nltk.word_tokenize(self.tok_question)
+            self.tok_question = unicode(self.question).translate(self.delete_punctuation_map)
+            self.tok_question = nltk.word_tokenize(self.tok_question.lower())
             self.tok_question = [self.lem.lemmatize(word) for word in self.tok_question]
         if pos:
             # self.tok_docs = [nltk.word_tokenize(doc) for doc in self.docs]
@@ -92,6 +92,7 @@ class BaseExtractor(object):
         return "I don't know how to answer that type of question yet"
 
 class NETagExtractor(BaseExtractor):
+    """ extractor that uses named entity tagging """
     def __init__(self, question, docs, tag=None):
         super(NETagExtractor, self).__init__(question, docs)
         if not tag:
@@ -108,11 +109,12 @@ class NETagExtractor(BaseExtractor):
                 # don't count things that are part of the question
                 if entity[0] == self.tag and self.clean(entity[1]) not in self.tok_question:
                     candidates[entity[1]] = candidates.get(entity[1], 0) + 1
-        
+
         # sort candidates by freqency
         return self.sort_candidates(candidates)
 
 class POSTagExtractor(BaseExtractor):
+    """ extractor that uses part-of-speech tagging """
     def __init__(self, question, docs, tags=None):
         super(POSTagExtractor, self).__init__(question, docs)
         if not tags:
@@ -128,7 +130,7 @@ class POSTagExtractor(BaseExtractor):
                 # don't count things that are part of the question
                 if word[1] in self.tags and self.clean(word[0]) not in self.tok_question:
                     candidates[word[0]] = candidates.get(word[0], 0) + 1
-        
+
         # sort candidates by freqency
         return self.sort_candidates(candidates)
 

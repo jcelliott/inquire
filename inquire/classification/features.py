@@ -1,7 +1,6 @@
-# Feature extractors for question classification
+""" Feature extractors for question classification """
 
 from os import path, listdir
-import glob
 from itertools import chain, product
 
 import numpy as np
@@ -16,6 +15,7 @@ from inquire import config
 REL_WORDS_DIR = path.join(path.dirname(__file__), "data/rel_words")
 
 def build_word_lists():
+    """ build word lists from related words data """
     word_list_files = listdir(REL_WORDS_DIR)
     word_lists = {}
     for wlf in word_list_files:
@@ -147,11 +147,11 @@ class RelatedWordVectorizer(TfidfVectorizer):
             tokenize(preprocess(self.decode(doc)))))
 
     def get_rel_word(self, word):
-        for rel,words in self.word_lists.iteritems():
+        for rel, words in self.word_lists.iteritems():
             if word in words:
                 return rel
         return ""
-        
+
     def build_rel_word_string(self, doc):
         related_words = ""
         for word in doc:
@@ -190,12 +190,12 @@ class CustomFeatures(BaseEstimator):
         first_in_which = self.first_word(lower_docs, 'in which')
 
         # how much|many
-        how_much = [1 if doc.startswith('how much') or doc.startswith('how many') 
-                else 0 for doc in lower_docs]
+        how_much = [1 if doc.startswith('how much') or doc.startswith('how many')
+                    else 0 for doc in lower_docs]
 
         return np.array([
-            first_who, first_what, first_where, first_when, first_why, first_how, first_which, 
-            first_in_what, first_in_which, 
+            first_who, first_what, first_where, first_when, first_why, first_how, first_which,
+            first_in_what, first_in_which,
             how_much,
         ]).transpose()
 
@@ -257,9 +257,9 @@ class CustomRelWordFeatures(BaseEstimator, VectorizerMixin):
         search_set = self.get_search_set(pattern[0])
         for idx, word in enumerate(doc):
             if word in search_set:
-                return self.check_sparse_colloc(doc[idx+1:], pattern[1:])
+                return self.check_sparse_colloc(doc[idx + 1:], pattern[1:])
         return 0
-    
+
     def check_colloc(self, doc, pattern):
         """
         Check if a document has the collocation indicated by pattern. The words
@@ -268,9 +268,9 @@ class CustomRelWordFeatures(BaseEstimator, VectorizerMixin):
         search_set = self.get_search_set(pattern[0])
         for idx, word in enumerate(doc):
             if word in search_set:
-                if len(pattern[1:]) > len(doc[idx+1:]):
+                if len(pattern[1:]) > len(doc[idx + 1:]):
                     return 0
-                for word, pat in zip(doc[idx+1:], pattern[1:]):
+                for word, pat in zip(doc[idx + 1:], pattern[1:]):
                     if word not in self.get_search_set(pat):
                         return 0
                 return 1
@@ -283,7 +283,7 @@ class CustomRelWordFeatures(BaseEstimator, VectorizerMixin):
         given pattern_sets = [['a','b','c'], ['1','2']] collocations will generate features
         to indicate the presence of the following patterns in the input documents:
         'a 1', 'a 2', 'b 1', 'b 2', 'c 1', 'c 2'
-        
+
         The input documents will preprocessed and tokenized with functions from VectorizerMixin
         """
         if sparse:
@@ -300,7 +300,6 @@ class CustomRelWordFeatures(BaseEstimator, VectorizerMixin):
             collocations.append(pattern_features)
 
         return np.array(collocations).transpose()
-
 
     def transform(self, documents):
         lower_docs = [doc.lower() for doc in documents]

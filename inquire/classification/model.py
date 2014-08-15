@@ -1,4 +1,4 @@
-# Train a question classifier for QA
+""" Train a question classifier model for question answering """
 from os import path
 import sys
 import re
@@ -10,7 +10,7 @@ import logging as log
 
 import numpy
 from sklearn.datasets.base import Bunch
-from sklearn.feature_extraction.text import CountVectorizer, TfidfTransformer, TfidfVectorizer
+from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.pipeline import Pipeline, FeatureUnion
 from sklearn.cross_validation import StratifiedKFold, LeaveOneOut
 from sklearn.grid_search import GridSearchCV
@@ -25,8 +25,8 @@ MODEL_DIR = path.join(path.dirname(__file__), "data/models")
 
 class Classifier:
 
-    def __init__(self, data=None, model_file="classify.pkl"):
-        self.data = data
+    def __init__(self, init_data=None, model_file="classify.pkl"):
+        self.data = init_data
         self.model_file = model_file
         self.model = self.build_model()
 
@@ -37,14 +37,14 @@ class Classifier:
 
         model = Pipeline([
             ('union', FeatureUnion([
-                ('words', TfidfVectorizer(max_df=0.25, ngram_range=(1,4),
-                    sublinear_tf=True, max_features=5000)),
-                ('relword', RelatedWordVectorizer(max_df=0.75, ngram_range=(1,4), 
-                    sublinear_tf=True)),
-                # ('pos', TagVectorizer(max_df=0.75, ngram_range=(1,4), 
-                #     sublinear_tf=True)),
-                # ('ner', NERVectorizer(max_df=0.5, ngram_range=(1,4), 
-                #     sublinear_tf=True)),
+                ('words', TfidfVectorizer(max_df=0.25, ngram_range=(1, 4),
+                                          sublinear_tf=True, max_features=5000)),
+                ('relword', RelatedWordVectorizer(max_df=0.75, ngram_range=(1, 4),
+                                                  sublinear_tf=True)),
+                # ('pos', TagVectorizer(max_df=0.75, ngram_range=(1, 4),
+                #                       sublinear_tf=True)),
+                # ('ner', NERVectorizer(max_df=0.5, ngram_range=(1, 4),
+                #                       sublinear_tf=True)),
                 # ('custom', CustomFeatures()),
                 # ('custom_relword', CustomRelWordFeatures()),
             ])),
@@ -70,7 +70,7 @@ class Classifier:
         """
         if not model_file:
             model_file = self.model_file
-        log.debug("Saving model to file: "+model_file)
+        log.debug("Saving model to file: " + model_file)
         joblib.dump(self.model, path.join(MODEL_DIR, model_file))
 
     def load_model(self, model_file=None):
@@ -79,7 +79,7 @@ class Classifier:
         """
         if not model_file:
             model_file = self.model_file
-        log.debug("Loading model from file: "+model_file)
+        log.debug("Loading model from file: " + model_file)
         self.model = joblib.load(path.join(MODEL_DIR, model_file))
         return self
 
@@ -102,12 +102,12 @@ class Classifier:
         X = self.data.data
         y = self.data.target
         avg_score = 0.0
-        
+
         if leave_one_out:
             cv = LeaveOneOut(len(y))
         else:
             cv = StratifiedKFold(y, n_folds=n_folds)
-        
+
         for train, test in cv:
             model = self.build_model().fit(X[train], y[train])
             avg_score += model.score(X[test], y[test])
@@ -191,8 +191,8 @@ def load_data(filenames, coarse=False):
     for line in fileinput.input(filenames):
         d = data_re.match(line)
         if not d:
-            raise Exception("Invalid format in file {} at line {}".format(fileinput.filename(), 
-                            fileinput.filelineno()))
+            raise Exception("Invalid format in file {} at line {}"
+                            .format(fileinput.filename(), fileinput.filelineno()))
         if coarse:
             target.append(d.group(1))
             fine_target.append(d.group(2))
@@ -217,8 +217,9 @@ if __name__ == "__main__":
     parser.add_argument("-s", "--save", help="save the trained model to disk", action="store_true")
     parser.add_argument("-f", "--savefile", help="the file where the model should be saved")
     parser.add_argument("-c", "--coarse", help="only train on coarse classes", action="store_true")
-    parser.add_argument("-a", "--alldata", help="use all data (training and testing)", action="store_true")
     parser.add_argument("-p", "--predict", help="classify an input question")
+    parser.add_argument("-a", "--alldata", help="use all data (training and testing)",
+                        action="store_true")
     args = parser.parse_args()
 
     if args.example:
@@ -235,7 +236,7 @@ if __name__ == "__main__":
         clf.test_model(n_folds=4)
         # clf.test_model(leave_one_out=True)
         sys.exit(0)
-    
+
     if args.optimize:
         clf = Classifier(data)
         clf.search_estimator_params()

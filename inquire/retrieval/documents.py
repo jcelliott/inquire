@@ -1,13 +1,16 @@
-# Document retrieval for question answering
-# Uses Bing web search API to retrieve documents
+"""
+Document retrieval for question answering
+Uses Bing web search API to retrieve documents
+"""
+
+import json
+import logging as log
 
 from bing_search_api import BingSearchAPI
 from inquire import config
-import json
-
-import logging as log
 
 def get_documents(question):
+    """ get documents for the question by using the 'description' field in Bing results """
     try:
         bing_key = config.BING_API_KEY
     except AttributeError:
@@ -17,7 +20,7 @@ def get_documents(question):
     params = {
         '$top': config.BING_NUM_RESULTS,
     }
-    log.debug("Bing search params: "+str(params))
+    log.debug("Bing search params: " + str(params))
 
     # question = preprocess_question(question)
 
@@ -33,9 +36,11 @@ def get_documents(question):
     docs = [doc["Description"] for doc in results]
     return docs
 
-# perform any preprocessing of the question to improve search results
-# e.g., stop word filtering
 def preprocess_question(question):
+    """
+    perform any preprocessing of the question to improve search results
+    e.g., stop word filtering
+    """
     # TODO: look into this more
     return question
 

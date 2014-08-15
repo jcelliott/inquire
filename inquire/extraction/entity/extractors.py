@@ -1,31 +1,30 @@
 import logging as log
-import importlib
 
 from ..extractors import NoExtractorError, POSTagExtractor
 
 question_types = {
-  'animal': 'animal',
-  'body': 'body',
-  'color': 'color',
-  'cremat': 'creative',
-  'currency': 'currency',
-  'dismed': 'disease-medicine',
-  'event': 'event',
-  'food': 'food',
-  'instru': 'instrument',
-  'lang': 'lang',
-  'letter': 'letter',
-  'other': 'other',
-  'plant': 'plant',
-  'product': 'product',
-  'religion': 'religion',
-  'sport': 'sport',
-  'substance': 'substance',
-  'symbol': 'symbol',
-  'techmeth': 'technique',
-  'termeq': 'term',
-  'veh': 'vehicle',
-  'word': 'word',
+    'animal': 'animal',
+    'body': 'body',
+    'color': 'color',
+    'cremat': 'creative',
+    'currency': 'currency',
+    'dismed': 'disease-medicine',
+    'event': 'event',
+    'food': 'food',
+    'instru': 'instrument',
+    'lang': 'lang',
+    'letter': 'letter',
+    'other': 'other',
+    'plant': 'plant',
+    'product': 'product',
+    'religion': 'religion',
+    'sport': 'sport',
+    'substance': 'substance',
+    'symbol': 'symbol',
+    'techmeth': 'technique',
+    'termeq': 'term',
+    'veh': 'vehicle',
+    'word': 'word',
 }
 
 TAGS = ['NNP', 'NNPS', 'NN', 'NNS']
