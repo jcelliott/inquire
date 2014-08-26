@@ -1,0 +1,59 @@
+* Abbreviation
+** abbreviation
+** expression abbreviated
+* Entity
+** aminals
+** organs of body
+** colors
+** creative (art, invention)
+** currency names
+** diseases and medicine
+** events
+** food
+** musical instrument
+** languages
+* Entity2
+** letters (like a-z)
+** plants
+** products
+** religions
+** sports
+** elements and substances
+** symbols and signs
+** techniques and methods
+** equivalent terms
+** vehicles
+* Entity3
+** words
+** other
+* Description
+** definition of something
+** description of something
+** manner of an action
+** reason
+* Human
+** group or organization
+** an individual
+** title of a person
+** description of a person
+* Location
+** cities
+** countries
+** mountains
+** states
+** other locations
+* Numeric
+** code (postal code, etc.)
+** count (number of things)
+** dates
+** distance
+** prices
+** order or rank
+** period or duration
+** percent or fraction
+** speed
+** temperature
+* Numeric2
+** size, area, or volume
+** weight
+** other number
