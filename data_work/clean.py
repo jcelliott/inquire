@@ -1,7 +1,6 @@
 """ clean TREC data files """
 
 import fileinput
-import sys
 import re
 from bs4 import BeautifulSoup
 
@@ -10,6 +9,7 @@ OUTFILE = 'trec_2003_cleaned.txt'
 
 data = ""
 
+# generate valid XML from whatever crazy format the TREC data is distributed as
 for line in fileinput.input(FILE):
     if line.startswith('<num>'):
         data += re.sub(r'<num> Number: (\d+).*', r'<num>\1</num>', line)
