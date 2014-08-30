@@ -17,12 +17,17 @@ def init(debug=False):
     logging.debug("Logging level set to DEBUG")
 
 # Run in debug mode
-#DEBUG = False
-DEBUG = True
+DEBUG = False
+# DEBUG = True
 
 # Store the question and answer candidates
 CACHE_QUESTION = True
 QUESTION_CACHE_FILE = path.join(path.dirname(__file__), "question_cache.txt")
+
+# Cache documents by question for testing
+CACHE_DOCS = False
+MONGO_DB = 'inquire'
+MONGO_COLLECTION = 'doc_cache'
 
 # Windows Azure Marketplace primary account key. Add in config_local.py
 BING_API_KEY = ""
@@ -62,18 +67,19 @@ LOGGING = {
             'class': 'logging.StreamHandler',
             'formatter': 'default'
         },
-        'file': {
-            'level': 'DEBUG',
-            'class': 'logging.RotatingFileHandler',
-            'formatter': 'default',
-            'filename': 'inquire.log',
-            'maxBytes': 1024,
-            'backupCount': 3
-        },
+        # 'file': {
+        #     'level': 'DEBUG',
+        #     'class': 'logging.RotatingFileHandler',
+        #     'formatter': 'default',
+        #     'filename': 'inquire.log',
+        #     'maxBytes': 1024,
+        #     'backupCount': 3
+        # },
     },
     'loggers': {
         '': {
-            'handlers': ['file', 'console'],
+            # 'handlers': ['file', 'console'],
+            'handlers': ['console'],
             'level': 'INFO',
         },
     }

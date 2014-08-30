@@ -1,33 +1,35 @@
 #!/usr/bin/env python2
 
 """ Python question answering """
-
+from __future__ import absolute_import
 import argparse
 import codecs
 import uuid
 import json
 import logging as log
 
-import config
-from retrieval import documents
-from classification import model
-from extraction import get_extractor, NoExtractorError
+from . import config
+from .retrieval import documents
+from .classification import model
+from .extraction import get_extractor, NoExtractorError
 
 def answer_question(question):
     """
     Main pipeline for question answering
     Takes a question and returns the most likely answer
     """
+    question = question.strip()
     log.info("answering question: " + question)
     coarse, fine = classify_question(question)
     try:
         extractor = get_extractor(coarse, fine)
     except NoExtractorError:
         cache_question(question, None)
-        return ("I don't know how to answer that type of question yet.", 1.0)
+        # return ("I don't know how to answer that type of question yet.", 1.0)
+        return (None, 1.0)
 
     # wait to get docs until we know we can handle the question
-    log.info("retrieving documents...")
+    log.debug("retrieving documents...")
     docs = documents.get_documents(question)
     #answer_candidates(docs)
 
@@ -36,21 +38,22 @@ def answer_question(question):
     if answers is None:
         cache_question(question, [])
         log.info("No answers found!")
+        return (None, 1.0)
     else:
         cache_question(question, answers)
         log.info("best answer: " + answers[0][0])
         if config.DEBUG:
             print_top_answers(answers)
-        else:
-            print_answer(answers[0][0])
-    return answers[0][0]
+        # else:
+        #     print_answer(answers[0][0])
+    return answers[0]
 
 def classify_question(question):
     """
     load the model and classify the question
     returns the coarse and fine classes
     """
-    log.info("classifying question...")
+    log.debug("classifying question...")
     clf = model.Classifier().load_model()
     coarse, fine = clf.predict(question)
     log.info("question classified as: {}: {}".format(coarse, fine))
@@ -63,6 +66,7 @@ def cache_question(question, answers):
             out.write(json.dumps({
                 str(uuid.uuid4()): {'question': question, 'answers': answers}
             }, ensure_ascii=False) + '\n')
+
 
 def print_answer(answer):
     """ print the selected answer """

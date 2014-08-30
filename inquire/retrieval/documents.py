@@ -2,15 +2,22 @@
 Document retrieval for question answering
 Uses Bing web search API to retrieve documents
 """
-
+from __future__ import absolute_import
 import json
 import logging as log
 
-from bing_search_api import BingSearchAPI
-from inquire import config
+from pymongo import MongoClient
+
+from .bing_search_api import BingSearchAPI
+from .. import config
 
 def get_documents(question):
     """ get documents for the question by using the 'description' field in Bing results """
+    if config.CACHE_DOCS:
+        docs = retrieve_cached_docs(question)
+        if docs is not None:
+            log.debug("got cached docs")
+            return docs
     try:
         bing_key = config.BING_API_KEY
     except AttributeError:
@@ -34,6 +41,8 @@ def get_documents(question):
 
     log.debug("Got {} results from Bing".format(len(results)))
     docs = [doc["Description"] for doc in results]
+    if config.CACHE_DOCS:
+        cache_docs(question, docs)
     return docs
 
 def preprocess_question(question):
@@ -44,4 +53,16 @@ def preprocess_question(question):
     # TODO: look into this more
     return question
 
+def cache_docs(question, docs):
+    """ store retrieved documents """
+    cache = MongoClient()[config.MONGO_DB][config.MONGO_COLLECTION]
+    obj_id = cache.insert({'question': question, 'docs': docs})
+    log.debug("Cached docs: " + str(obj_id))
 
+def retrieve_cached_docs(question):
+    """ retrieve documents that were stored for the specified question """
+    cache = MongoClient()[config.MONGO_DB][config.MONGO_COLLECTION]
+    cached = cache.find_one({'question': question})
+    if cached is None:
+        return None
+    return cached['docs']

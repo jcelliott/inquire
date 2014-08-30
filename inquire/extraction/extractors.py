@@ -107,6 +107,9 @@ class NETagExtractor(BaseExtractor):
             for entity in doc:
                 # entities come first in this output
                 # don't count things that are part of the question
+                # TODO: fuzzy match this so we don't get spelling errors of the
+                # question as answers
+                # TODO: are we including punctuation in the comparison? (see: eval-1929)
                 if entity[0] == self.tag and self.clean(entity[1]) not in self.tok_question:
                     candidates[entity[1]] = candidates.get(entity[1], 0) + 1
 
@@ -128,6 +131,8 @@ class POSTagExtractor(BaseExtractor):
         for doc in self.pos_docs:
             for word in doc:
                 # don't count things that are part of the question
+                # TODO: fuzzy match this so we don't get spelling errors of the
+                # question as answers
                 if word[1] in self.tags and self.clean(word[0]) not in self.tok_question:
                     candidates[word[0]] = candidates.get(word[0], 0) + 1
 
