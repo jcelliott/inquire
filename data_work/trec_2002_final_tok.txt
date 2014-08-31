@@ -1,0 +1,500 @@
+LOC:country In what country did the game of croquet originate ?
+HUM:ind Who is Tom Cruise married to ?
+LOC:other What is the name of the volcano that destroyed the ancient city of Pompeii ?
+NUM:count What was the largest crowd to ever come see Michael Jordan ?
+NUM:date What year was Alaska purchased ?
+LOC:city What mythical Scottish town appears for one day every 100 years ?
+NUM:date When was the telegraph invented ?
+ENTY:symbol What is the democratic party symbol ?
+NUM:date What year did Wilt Chamberlain score 100 points ?
+NUM:date When was the internal combustion engine invented ?
+NUM:count How many chromosomes does a human zygote have ?
+NUM:count How many ounces are in a gallon ?
+NUM:date When did the story of Romeo and Juliet take place ?
+NUM:date When did the shootings at Columbine happen ?
+HUM:gr Which political party is Lionel Jospin a member of ?
+HUM:ind Which vintage rock and roll singer was known as `` The Killer '' ?
+ENTY:animal What lays blue eggs ?
+HUM:ind What Spanish explorer discovered the Mississippi River ?
+HUM:ind Who is the governor of Colorado ?
+LOC:other What river is called `` China 's Sorrow '' ?
+NUM:period What was the length of the  Wright brothers ' first flight ?
+LOC:other Where does the vice president live when in office ?
+NUM:date When was Wendy 's founded ?
+HUM:ind Who was the first person to run the mile in less than four minutes ?
+NUM:date When was the Rosenberg trial ?
+NUM:date What year did Alaska become a state ?
+NUM:dist How high is Mount Kinabalu ?
+NUM:date When did Mike Tyson bite Holyfield 's ear ?
+LOC:country What two European countries are connected by the St . Gotthard Tunnel under the Alps ?
+LOC:other What is a peninsula in the Philippines ?
+HUM:ind Who won the Oscar for best actor in 1970 ?
+NUM:count What is the population of Maryland ?
+HUM:ind Who is the governor of Tennessee ?
+ENTY:veh What was the first spaceship on the moon ?
+HUM:ind Who won the Nobel Peace Prize in 1992 ?
+HUM:ind What was Andrew Jackson` s wife 's name ?
+NUM:period How old do you have to be to get married in South Carolina ?
+HUM:ind Who starred in `` The Poseidon Adventure '' ?
+LOC:other Where is Devil 's Tower ?
+NUM:dist What is the height of the tallest redwood ?
+LOC:other What site did Lindbergh begin his flight from in 1927 ?
+LOC:country What nation is home to the Kaaba ?
+ENTY:animal What was the name of Stonewall Jackson 's horse ?
+NUM:count How many states were still united after the southern states seceded ?
+LOC:other What body of water does the Colorado River flow into ?
+NUM:dist How deep is Crater Lake ?
+HUM:ind Who was the lead singer for the Commodores ?
+LOC:other What is the coldest place on earth ?
+ENTY:symbol What is the chemical formula for sulphur dioxide ?
+NUM:date When did Bob Marley die ?
+HUM:ind What female leader succeeded Ferdinand Marcos as president of the Philippines ?
+NUM:date When is Snoop Dog 's birthday ?
+DESC:manner How did Mahatma Gandhi die ?
+LOC:city What is the capital of Syria ?
+ENTY:dismed What is the fear of lightning called ?
+LOC:other What college did Magic Johnson attend ?
+LOC:state Which U .S . state is the leading corn producer ?
+LOC:other Where was the first McDonalds built ?
+ENTY:cremat What is the name given to a collection of poetry ?
+LOC:other Where was the first J .C . Penney store opened ?
+NUM:money How much money does the U .S . supreme court make ?
+LOC:city The Hindenburg disaster took place in 1937 in which New Jersey town ?
+LOC:state What is the Keystone State ?
+HUM:ind Who succeeded Ferdinand Marcos ?
+ENTY:other What was the name of the high school in `` Grease '' ?
+LOC:other What is one national park in Indiana ?
+ENTY:animal What was the name of the dog in the Thin Man movies ?
+LOC:country What country 's leader was awarded the 2000 Nobel Peace Prize ?
+LOC:other Where is the oldest synagogue in the United States ?
+ENTY:cremat What is the North Korean national anthem ?
+HUM:ind Who is the detective on `` Diagnosis Murder '' ?
+HUM:gr What company makes Bentley cars ?
+NUM:dist How tall is Allen Iverson ?
+NUM:date What year did South Dakota become a state ?
+ENTY:termeq If something has petrified , what has it turned into ?
+NUM:date When did Alexandra Graham Bell invent the telephone ?
+NUM:date When did president Herbert Hoover die ?
+NUM:speed How fast does a cheetah run ?
+ENTY:termeq How do you say `` house '' in Spanish ?
+NUM:date When was Lyndon B . Johnson born ?
+LOC:other What is the lowest point on earth ?
+HUM:ind Who was the first person to reach the south pole ?
+HUM:ind Who was the Roman god of the sea ?
+NUM:dist What are wavelengths measured in ?
+HUM:ind What is the name of the heroine in `` Gone with the Wind '' ?
+HUM:ind Who composed `` The Messiah '' ?
+LOC:other What is the principle port in Ecuador ?
+LOC:city What is the capital city of Algeria ?
+LOC:other What county is Wilmington , Delaware in ?
+LOC:mount Where is the highest point on earth ?
+LOC:other What college did Allen Iverson attend ?
+ENTY:termeq What is slang for a `` five dollar bill '' ?
+LOC:other Where did Roger Williams , pianist , grow up ?
+NUM:money How much are tickets to Disney World ?
+HUM:gr What is the name of the professional baseball team in Myrtle Beach , South Carolina ?
+LOC:other What continent is India on ?
+HUM:ind What is the Boston Strangler 's name ?
+HUM:ind What was the name of Sherlock Holmes ' brother ?
+NUM:period How old was Nolan Ryan when he retired ?
+NUM:date When was Davy Crockett born ?
+HUM:ind Who wrote `` East is east , west is west and never the twain shall meet '' ?
+DESC:manner How did Molly Shannon 's mother die ?
+LOC:country What country is Berlin in ?
+ENTY:other What was the original name before `` The Star Spangled Banner '' ?
+LOC:other What school did Emmitt Smith go to ?
+LOC:country Which African country 's major export is coffee ?
+LOC:other Where is Georgetown University ?
+NUM:perc How much of U .S . power is from nuclear energy ?
+NUM:date What year was President Kennedy killed ?
+LOC:other What is the world 's second largest island ?
+LOC:other Where is the Salton Sea ?
+ENTY:currency What is the currency used in China ?
+ENTY:other What` s the name of King Arthur 's sword ?
+ENTY:cremat What is the national anthem in England ?
+ENTY:animal What was Dale Evans`  horse 's name ?
+HUM:ind What is Frank Sinatra 's nickname ?
+LOC:other Where is Anne Frank 's diary ?
+HUM:ind Who said `` Music hath charm to soothe the savage beast '' ?
+NUM:period What is the age of our solar system ?
+NUM:count What is the current population in Bombay , India ?
+LOC:city What is Canada 's most populous city ?
+HUM:ind What was Dr . Seuss ' real name ?
+ABBR:exp What does CPR stand for ?
+ENTY:animal What is the state bird of Alaska ?
+NUM:date What year did Marco Polo travel to Asia ?
+LOC:other Where was Hans Christian Anderson born ?
+LOC:city What is the capital of Kentucky ?
+NUM:date What year did Ellis Island open its doors to immigrants ?
+ENTY:other What are the headpieces called that the Saudi Arabians wear ?
+NUM:perc What percent of the U .S . is African American ?
+LOC:other What is the name of the ballpark that the Milwaukee Brewers play at ?
+ENTY:other What university did Thomas Jefferson found ?
+LOC:city What is the city of brotherly love ?
+NUM:date When did the 6-day war begin ?
+LOC:other Where did Kublai Khan live ?
+ENTY:event What is the oldest college bowl game ?
+LOC:city What is the capital city of New Zealand ?
+ABBR:exp What does NASDAQ stand for ?
+NUM:perc What is the literacy rate in Cuba ?
+HUM:ind Who directed the film `` Fail Safe '' ?
+ENTY:substance The sun is mostly made up of what two gasses ?
+HUM:ind Who painted `` Sunflowers '' ?
+LOC:city What city is Lake Washington by ?
+NUM:count How many electoral college votes in Tennessee ?
+HUM:ind Who is the evil H .R . Director in `` Dilbert '' ?
+ENTY:food What is Ronald Reagan 's favorite candy ?
+LOC:other What is the deepest lake in America ?
+HUM:ind What president is on a quarter ?
+LOC:other Where is Hill Air Force Base ?
+NUM:dist How tall was Judy Garland ?
+LOC:country What is the most populated country in the world ?
+ENTY:termeq What is a female rabbit called ?
+NUM:date What year was the movie `` Ole Yeller '' made ?
+NUM:code What is the atomic number of uranium ?
+HUM:ind What was the first name of the Gehrig who played for the New York Yankees ?
+NUM:date What year was the PC invented ?
+LOC:other What is the southwestern-most tip of England ?
+ABBR:exp What does DNA stand for ?
+ENTY:cremat What did Charles Babbage invent ?
+HUM:gr Who makes Magic Chef refrigerators ?
+ENTY:termeq What is the scientific name for tobacco ?
+NUM:date When was the Tet offensive in Vietnam ?
+LOC:other What cemetery is Thurgood Marshall buried in ?
+ENTY:other What was the first satellite in space ?
+NUM:money How much does it cost to register a car in New Hampshire ?
+LOC:other Where did Dr . King give his speech in Washington ?
+ENTY:cremat What was Denzel Washington 's first television series ?
+NUM:date When was the first patent filed on the ice cream cone ?
+LOC:other Where did the U .S . Civil War begin ?
+HUM:ind Who started the Protestant reformation ?
+NUM:date When did Led Zeppelin appear on BBC ?
+HUM:ind What is Karl Malone 's nickname ?
+HUM:ind What famous Spanish poet died in Spain 's Civil War ?
+NUM:date When did the Black Panther party start in California ?
+NUM:period How old was George Washington when he died ?
+NUM:date When did the Vietnam War end ?
+NUM:period What is the legal age to vote in Argentina ?
+NUM:count How much copper is in a penny ?
+HUM:ind For whom was the state of Pennsylvania named ?
+HUM:ind Who is the head of the FBI ?
+NUM:date When did `` The Simpsons '' first appear on television ?
+NUM:other What is the degree of tilt of Earth ?
+ENTY:other What galaxy is closest to the milky way ?
+ENTY:cremat What Burns poem does `` the best laid plans of mice and men '' come from ?
+NUM:dist How tall is the Sphinx ?
+LOC:country Which country exports the most tea ?
+ENTY:other What name is given to the science of map-making ?
+ENTY:event What anniversary is the 20th ?
+NUM:dist How high is a hand ?
+ENTY:cremat What is the text of an opera called ?
+NUM:date When did George W . Bush get elected as the governor of Texas ?
+ENTY:religion What is the chief religion for Peru ?
+NUM:date When did the Golden Gate Bridge get finished ?
+HUM:gr What did Sherlock Holmes call the street gang that helped him crack cases ?
+NUM:date When was Apollo 11 launched ?
+HUM:ind Who was the only golfer to win the U .S . and British Opens and amateurs in the same year ?
+ENTY:plant What do grasshoppers eat ?
+NUM:perc What percentage of the population is left handed ?
+NUM:date When was the Reichstag burned down ?
+NUM:perc What percent of Egypt 's population lives in Cairo ?
+ENTY:cremat Which long Lewis Carroll poem was turned into a musical on the London stage ?
+HUM:ind What person developed COBOL ?
+NUM:date What year did Mussolini seize power in Italy ?
+LOC:other Where is the French consulate in New York ?
+HUM:ind Who was the baseball player given the nickname `` Mr . October '' ?
+NUM:count What is South Africa 's total population ?
+HUM:gr What automobile company makes the Spider ?
+NUM:date When did Einstein die ?
+HUM:ind Who holds the record as the highest paid child performer ?
+NUM:date When did Robert E . Lee surrender in the Civil War ?
+ABBR:exp What does R&B stand for ?
+NUM:dist How far would you run if you participate in a marathon ?
+NUM:temp What is the boiling point of water ?
+NUM:other What is the normal blood sugar range for people ?
+ENTY:other What is the appropriate gift for a 10th anniversary ?
+ENTY:currency What is the currency of Bolivia called ?
+HUM:ind Who signed the Declaration of Independence from Vermont ?
+NUM:period What is the lifespan of a house fly ?
+NUM:date When was the U .S . invasion of Haiti ?
+NUM:date When was Benjamin Disraeli prime minister ?
+LOC:city What is the capital of Victoria ?
+LOC:country What is Africa 's largest country ?
+NUM:date When is Gerald Ford 's birthday ?
+NUM:date When did the Klondike gold rush occur ?
+ENTY:body Where is bile produced ?
+HUM:ind Which baseball star stole 130 bases in 1982 ?
+NUM:date What year was the first Macy 's Thanksgiving Day Parade held ?
+LOC:country What is the name of the country in the Pyrenees mountains between France and Spain ?
+HUM:ind Who was Woodrow Wilson 's First Lady ?
+ENTY:substance What is the active ingredient in Tylenol ?
+NUM:date What year did `` New Coke '' come out ?
+LOC:other What is the deepest lake in the world ?
+HUM:ind What is Buzz Aldrin 's real first name ?
+ENTY:other What is written on the U .S . tomb of the unknown soldier ?
+NUM:volsize How much area does the Everglades cover ?
+LOC:other Where is Mae West buried ?
+NUM:date When was the dog domesticated ?
+NUM:count What 's the capacity of the Superdome ?
+NUM:count How much protein is in tofu ?
+ENTY:other What roller coaster is the fastest in the world ?
+NUM:volsize What is the area of Venezuela ?
+ENTY:event What is the name of the famous dogsledding race held each year in Alaska ?
+NUM:date When was the battle of Chancellorsville fought ?
+ENTY:symbol What is the name of the five pointed star commonly used by Satanists ?
+LOC:city What city in Australia has rain forests ?
+HUM:title What is the profession of John Cusack 's character in the 1999 film `` Pushing Tin '' ?
+HUM:ind Who founded Taoism ?
+DESC:reason Where did 'N Sync get their name ?
+ENTY:animal What do you call a baby sloth ?
+HUM:ind Who founded Rhode Island ?
+NUM:dist How far away from the sun is Saturn ?
+NUM:money How much is the international space stations expected to cost ?
+NUM:date When was the first atomic bomb dropped ?
+LOC:other What continent is Scotland in ?
+ABBR:exp What does TB stand for in baseball stats ?
+NUM:date What year did the shuttle Challenger explode ?
+LOC:other What county is Elmira , NY in ?
+ENTY:termeq What is another name for the North Star ?
+NUM:date When did the United States enter World War II ?
+ENTY:termeq How do you say `` French fries '' in French ?
+LOC:other Where is Prairie View A&M University ?
+LOC:other Where was Abraham Lincoln born ?
+NUM:speed How fast does an Iguana travel (mph) ?
+ENTY:termeq What do the French call the English Channel ?
+NUM:date What year was Robert Frost born ?
+LOC:other Where was Bob Dylan born ?
+HUM:ind What is Elvis Presley 's middle name ?
+DESC:def What does `` E Pluribus Unum '' mean ?
+NUM:date When was Jerusalem invaded by the general Titus ?
+HUM:title What are the people who make fireworks called ?
+HUM:ind Who was the first person to make the helicopter ?
+NUM:date When did Marian Anderson sing at the Lincoln Memorial ?
+LOC:other What is the name of the US military base in Cuba ?
+ABBR:abb What is the abbreviation for the London stock exchange ?
+LOC:other What is the oldest national park in the U .S . ?
+NUM:dist How tall is Mount McKinley ?
+HUM:ind Who was the Union general in the Battle of Winchester ?
+LOC:other Where is Big Ben ?
+LOC:country What Latin American country is the leading exporter of sugar cane ?
+NUM:date What time of year does the peregrine falcon breed ?
+NUM:date What day did Neil Armstrong land on the moon ?
+HUM:gr What group sang the song `` Happy Together '' ?
+NUM:date When was water found on Mars ?
+DESC:manner How did Micky Mantle die ?
+HUM:ind Who was the U .S . president in 1929 ?
+NUM:dist What is the diameter of the moon ?
+LOC:country What country was ruled by King Arthur ?
+NUM:date When did Houdini die ?
+NUM:date When was Martin Luther King Jr . born ?
+HUM:ind What name is horror actor William Henry Pratt better known by ?
+ENTY:sport What card game uses only 48 cards ?
+LOC:city What is the most populous city in the United States ?
+HUM:gr Who defeated the Spanish armada ?
+HUM:ind What president declared Mothers ' Day ?
+NUM:date What year was the gateway arch built ?
+ENTY:event What war is connected with the book `` Charge of the Light Brigade '' ?
+ABBR:exp What does DEA stand for ?
+LOC:other Where was the movie `` Somewhere in Time '' filmed ?
+NUM:dist How tall is the Eiffel Tower in France ?
+NUM:date When was Jackie Robinson born ?
+NUM:date What year did California become a territory ?
+ENTY:animal What breed was Roy Rogers ' horse Trigger ?
+NUM:date When was the pencil first invented ?
+LOC:other Where is the Statue of Liberty ?
+NUM:date When was Julius Caesar born ?
+LOC:city What city is Purdue University in ?
+LOC:other Where is America 's Stonehenge ?
+LOC:other Where was President Lincoln buried ?
+HUM:gr Whose business slogan is `` Quality is job 1 '' ?
+ENTY:other What award did Sterling North 's book `` Rascal '' win in 1963 ?
+NUM:other What is the normal pulse rate ?
+ENTY:substance What is rum made out of ?
+NUM:date What is the beginning date for the Hershey foods company ?
+HUM:ind What is the ranger 's name in Yogi Bear cartoons ?
+NUM:date When was the Exxon Valdez Oil spill ?
+ENTY:substance What is the August birthstone ?
+ENTY:color What are the colors of the Italian flag ?
+NUM:date When was the first jet invented ?
+HUM:ind Who invented the fishing reel ?
+ENTY:dismed What is the phobia for number 13 ?
+LOC:other What province in Canada is Niagara Falls located in ?
+NUM:count How much vitamin C should you take in a day ?
+HUM:ind Who was the first Triple Crown Winner ?
+LOC:city What city was the first in the world to have a population over one million ?
+NUM:date When was the White House built ?
+NUM:dist What is the distance from Jupiter to the sun ?
+NUM:count When a game of baseball is forfeited , what is the score ?
+NUM:dist How far is the pitchers mound from home plate in softball ?
+NUM:date What year did poet Emily Dickinson die ?
+HUM:ind What is Madonna 's last name ?
+HUM:ind Who was one of the Egyptian gods ?
+LOC:other Where did David Ogden Stiers get his undergraduate degree ?
+ENTY:other What is the name of the canopy at a Jewish wedding ?
+ABBR:exp What does the abbreviation WASP mean ?
+NUM:date When did Yankee Stadium first open ?
+LOC:other What is the name of the airport in Amsterdam ?
+HUM:ind What is Mark Twain 's real name ?
+NUM:period How often does the United States government conduct an official population census ?
+ENTY:word What are the opening words of the Declaration of Independence ?
+HUM:ind Who is the president pro tempore of the US Senate ?
+ENTY:termeq How do you say `` pig '' in Spanish ?
+LOC:city What city is Southwestern University in ?
+ENTY:body Where on the body would you find the jowls ?
+NUM:period How much sleep should a child get at night ?
+LOC:other Where was the F Troop stationed ?
+HUM:ind What is the full name of conductor Seiji ?
+ENTY:substance What is the Stanley Cup made of ?
+HUM:ind What author wrote under the pen name `` Boz '' ?
+NUM:date When did the Mesozoic period end ?
+LOC:state Which state has the longest coastline on the Atlantic Ocean ?
+HUM:gr What car company invented the Edsel ?
+DESC:reason What are hiccups caused by ?
+HUM:ind Who stabbed Monica Seles ?
+LOC:other Where is the national hurricane center located ?
+NUM:date When were the Los Angeles riots ?
+NUM:date When was Sputnik launched ?
+NUM:count What is Mexico 's population ?
+LOC:other Where is Mesa Verde National park ?
+NUM:date When was the Oklahoma City bombing ?
+NUM:date When was the Vietnam Veterans Memorial in Washington , D .C . built ?
+NUM:date When did the Persian Gulf War occur ?
+HUM:title What was the profession of American patriot Paul Revere ?
+NUM:date When is Fashion week in NYC ?
+NUM:date When did the battle of Iwo Jima take place ?
+LOC:state What is the `` Sunflower State '' ?
+HUM:ind Who wrote `` Fiddler on the Roof ? ''
+LOC:other Where was C .S . Lewis born ?
+NUM:count How many black keys are on the piano ?
+LOC:other What is the name of Scarlett O` Hara 's house ?
+NUM:period How old is the universe ?
+HUM:ind What Cuban dictator did Fidel Castro force out of power in 1958 ?
+LOC:other What airport is LCY ?
+ENTY:plant What is Australia 's national blossom ?
+NUM:date When was the first Ford Mustang made ?
+ENTY:cremat What TV series did Pierce Brosnan play in ?
+HUM:ind Who is the owner of the St . Petersburg Times ?
+NUM:temp What is the highest recorded temperature in San Antonio , TX ?
+NUM:date When was D-Day ?
+HUM:ind Who invented the cotton gin ?
+ENTY:cremat What was Aaron Copland 's most famous piece of music ?
+ABBR:exp What does HTML stand for ?
+ENTY:animal What is a group of antelope called ?
+NUM:date What year did the first American lighthouse open ?
+HUM:ind Who did Scott Bakula play in `` American Beauty '' ?
+NUM:date When did Walt Disney die ?
+LOC:city What is Australia 's oldest city ?
+HUM:ind Who has the most no hitters in major league baseball ?
+NUM:date What year did `` Snow White '' come out ?
+HUM:ind Who was the first woman to run for president ?
+LOC:country What country are Volvo automobiles made in ?
+ENTY:termeq What is the scientific name for leech ?
+LOC:other What body of water does the Euphrates River empty into ?
+NUM:count What were the most points Michael Jordan scored in a game ?
+NUM:date What is David Lee Roth 's birthday ?
+HUM:gr Who makes viagra ?
+NUM:date What is the date of the Kent State Shooting ?
+LOC:country What country is the holy city of Mecca located in ?
+NUM:date When did they put Mir down ?
+NUM:dist How far is it from Buffalo , New York to Syracuse , New York ?
+ENTY:other What is the world 's tallest office building ?
+ENTY:veh What is the fastest car in the world ?
+NUM:dist How far does a laser pointer shine ?
+NUM:date What year did General Montgomery lead the Allies to a victory over the Axis troops in North Africa ?
+DESC:manner How did Adolf Hitler die ?
+LOC:other On what continent is Egypt located ?
+NUM:period What is the life expectancy of the average woman in Nigeria ?
+HUM:ind Which president was sworn into office on an airplane ?
+ENTY:body Where is the smallest bone in the body ?
+NUM:dist How tall is Tom Cruise ?
+NUM:date When did Willis Haviland Carrier make the air conditioner ?
+LOC:other Which river runs through Dublin ?
+HUM:ind Who was elected President of South Africa in 1994 ?
+NUM:date When was the first heart transplant ?
+NUM:count What is the range for the number of passengers a Boeing 747 airplane can carry ?
+LOC:other What island did the U .S . gain after the Spanish American war ?
+NUM:date When was the Buckingham Palace built in London , England ?
+LOC:other Where are the British Crown jewels kept ?
+NUM:date When was penicillin first used ?
+ENTY:cremat What was the name of the stage play that A . Lincoln died at ?
+NUM:date When were the first postage stamps issued in the United States ?
+ENTY:other What gift is proper for a 1st anniversary ?
+ENTY:product What is Nicaragua 's main industry ?
+NUM:period How old must you be to become President of the United States ?
+HUM:ind Who was the first president to speak on the radio ?
+LOC:other Where did Golda Meir grow up ?
+NUM:date When did Marilyn Monroe commit suicide ?
+NUM:date When is Mexico 's independence ?
+HUM:ind Who were the architects who designed the Empire State Building ?
+HUM:ind Who was the captain of the Titanic ?
+NUM:count What number did Michael Jordan wear ?
+LOC:other Which planet did the spacecraft Magellan enable scientists to research extensively ?
+NUM:date What year did Nintendo 64 come out ?
+ENTY:cremat Which film received the first best picture Academy Award ?
+LOC:other Where was the battle of Alamo fought ?
+ENTY:termeq What was Thailand 's original name ?
+NUM:dist How tall is the CNN Tower in Toronto ?
+LOC:city What city does the Tour de France end in ?
+ENTY:cremat What is the name of Abbott and Costello 's famous routine ?
+ENTY:word What did Walter Cronkite say at the end of every show ?
+NUM:dist How tall is Mike Tyson ?
+HUM:ind Which disciple received 30 pieces of silver for betraying Jesus ?
+HUM:ind Who was Sherlock Holmes ' arch enemy ?
+LOC:other What river runs through Rome , Italy ?
+NUM:date What year was Ebbets Field , home of Brooklyn Dodgers , built ?
+ENTY:animal What was the name of FDR 's dog ?
+LOC:country What country was formed in 1948 ?
+ENTY:cremat What is the state song of Kansas ?
+ENTY:word What 's the final line in the Edgar Allen Poe poem `` The Raven ? ''
+NUM:money How much did a quart of milk cost in the 1930 's ?
+NUM:date In what month are the most babies born ?
+NUM:date When was the Hellenistic Age ?
+LOC:other What province is Calgary located in ?
+ENTY:other What is the oldest sports trophy ?
+HUM:ind What is Tina Turners real name ?
+ENTY:veh What was the name of the plane that dropped the Atomic Bomb on Hiroshima ?
+LOC:state What is the nickname of Oklahoma ?
+HUM:ind What is Marilyn Monroe 's real name ?
+LOC:country Which country colonized Hong Kong ?
+NUM:date When did Henry VIII rule England ?
+LOC:other Where was the Andersonville Prison ?
+HUM:title What was William Shakespeare 's occupation before he began to write plays ?
+NUM:speed How fast is the world spinning ?
+LOC:city What city is known as the rubber capital of the world ?
+NUM:dist What is the length of Churchill Downs racetrack ?
+LOC:other Tell me where the DuPont company is located .
+HUM:gr What branch of the military has its academy in Annapolis ?
+ENTY:cremat What Broadway musical is the song `` The Story is Me '' from ?
+LOC:other Where was Bill Gates born ?
+NUM:money What is the GDP of China ?
+HUM:ind Who said `` I have not begun to fight ! '' ?
+HUM:ind What was the name of the first child of English parents to be born in America ?
+ENTY:plant What is the major crop grown in Arizona ?
+ENTY:body What part of the eye continues to grow throughout a person 's life ?
+LOC:city Which Italian city is home to the Cathedral of Santa Maria del Fiore or the Duomo ?
+LOC:city What capital is on the Susquehanna River ?
+HUM:ind In the Bible , who was Jacob 's mother ?
+LOC:country What country is Pretoria in ?
+NUM:other How much gravity exists on Mars ?
+DESC:manner How did Eva Peron die ?
+ENTY:other What is the motto for California ?
+NUM:date When was the battle of Shiloh ?
+LOC:country What county is St . Paul , Minnesota in ?
+NUM:dist How far from the earth is the sun ?
+ENTY:animal What is the name of a newborn swan ?
+NUM:date What year was the phonograph invented ?
+HUM:ind By what nickname was musician Ernesto Antonio Puente , Jr . best known ?
+NUM:date When was King Louis XIV born ?
+ENTY:termeq What is the scientific name for the zinnia plant ?
+LOC:country What nationality is Sean Connery ?
+NUM:perc How much of the ozone layer is depleted ?
+LOC:other Where is the Sea of Tranquility ?
+ENTY:lang What language do they speak in New Caledonia ?
+ENTY:color What are Brazil 's national colors ?
+ENTY:other What was the name of the first enclosed baseball park ?
+NUM:date What year was the light bulb invented ?
+NUM:period How old is the Red Pyramid ?
+HUM:ind Who is the author of the poem `` The Midnight Ride of Paul Revere ? ''
+HUM:ind Who was the first black heavyweight champion ?
+ENTY:plant Where does cinnamon come from ?
+HUM:ind What American general is buried in Salzburg ?

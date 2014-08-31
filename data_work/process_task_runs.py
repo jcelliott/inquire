@@ -4,9 +4,9 @@ import json
 from collections import defaultdict
 # from pprint import pprint
 
-TASK_RUN_FILE = 'inquire_task_run.json'
-TASK_FILE = 'inquire_task.json'
-OUT_FILE = 'inquire_data_out.txt'
+TASK_RUN_FILE = 'trec_2002_task_run.json'
+TASK_FILE = 'trec_2002_task.json'
+OUT_FILE = 'trec_2002_data_out.txt'
 
 # pylint: disable=invalid-name
 tasks = {}
