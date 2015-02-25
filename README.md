@@ -3,8 +3,7 @@ inquire
 
 Inquire is a simple factoid question answering system written in Python. You ask a question and
 Inquire will try to answer it. This is still a work in progress, and the system currently only knows
-how to answer a few types of questions. You can see a demo of it running
-[here](http://inquire.exathread.com). Currently the system performs best with questions about people
+how to answer a few types of questions. Currently the system performs best with questions about people
 and places (e.g., "Who was the third Prime Minister of Canada?" or "What is the capital of
 Bangladesh?").
 
