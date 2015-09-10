@@ -47,7 +47,7 @@ def evaluate(questions, answers):
     for q_num, question in questions.iteritems():
         print('\n')
         total += 1
-        answer, confidence = answer_question(question)
+        answer, confidence = answer_question(question, confidence=True)
         log.info("%s %s: %s - %.2f", q_num, question, answer, confidence)
         if answer is None:
             continue

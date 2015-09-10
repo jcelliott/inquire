@@ -13,7 +13,9 @@ from .retrieval import documents
 from .classification import model
 from .extraction import get_extractor, NoExtractorError
 
-def answer_question(question):
+config.init()
+
+def answer_question(question, confidence=False):
     """
     Main pipeline for question answering
     Takes a question and returns the most likely answer
@@ -26,7 +28,9 @@ def answer_question(question):
     except NoExtractorError:
         cache_question(question, None)
         # return ("I don't know how to answer that type of question yet.", 1.0)
-        return (None, 1.0)
+        if confidence:
+            return (None, 1.0)
+        return "Sorry, no answers found."
 
     # wait to get docs until we know we can handle the question
     log.debug("retrieving documents...")
@@ -38,7 +42,9 @@ def answer_question(question):
     if answers is None:
         cache_question(question, [])
         log.info("No answers found!")
-        return (None, 1.0)
+        if confidence:
+            return (None, 1.0)
+        return "Sorry, no answers found."
     else:
         cache_question(question, answers)
         log.info("best answer: " + answers[0][0])
@@ -46,7 +52,9 @@ def answer_question(question):
             print_top_answers(answers)
         # else:
         #     print_answer(answers[0][0])
-    return answers[0]
+    if confidence:
+        return answers[0]
+    return answers[0][0]
 
 def classify_question(question):
     """

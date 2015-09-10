@@ -6,7 +6,10 @@ from __future__ import absolute_import
 import json
 import logging as log
 
-from pymongo import MongoClient
+try:
+    from pymongo import MongoClient
+except ImportError:
+    pass
 
 from .bing_search_api import BingSearchAPI
 from .. import config
@@ -55,14 +58,21 @@ def preprocess_question(question):
 
 def cache_docs(question, docs):
     """ store retrieved documents """
-    cache = MongoClient()[config.MONGO_DB][config.MONGO_COLLECTION]
-    obj_id = cache.insert({'question': question, 'docs': docs})
-    log.debug("Cached docs: " + str(obj_id))
+    try:
+        cache = MongoClient()[config.MONGO_DB][config.MONGO_COLLECTION]
+        obj_id = cache.insert({'question': question, 'docs': docs})
+        log.debug("Cached docs: " + str(obj_id))
+    except Exception as err:
+        log.warn("error caching docs: {}".format(err))
 
 def retrieve_cached_docs(question):
     """ retrieve documents that were stored for the specified question """
-    cache = MongoClient()[config.MONGO_DB][config.MONGO_COLLECTION]
-    cached = cache.find_one({'question': question})
-    if cached is None:
+    try:
+        cache = MongoClient()[config.MONGO_DB][config.MONGO_COLLECTION]
+        cached = cache.find_one({'question': question})
+        if cached is None:
+            return None
+        return cached['docs']
+    except Exception as err:
+        log.warn("error accessing docs cache: {}".format(err))
         return None
-    return cached['docs']
