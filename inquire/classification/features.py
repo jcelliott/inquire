@@ -27,9 +27,8 @@ def build_word_lists():
 
 class TagVectorizer(TfidfVectorizer):
 
-    def __init__(self, tags_only=False, input='content', encoding='utf-8', charset=None,
-                 decode_error='strict', charset_error=None,
-                 strip_accents=None, lowercase=True,
+    def __init__(self, tags_only=False, input='content', encoding='utf-8',
+                 decode_error='strict', strip_accents=None, lowercase=True,
                  preprocessor=None, tokenizer=None, analyzer='word',
                  stop_words=None, token_pattern=r"(?u)\b\w\w+\b",
                  ngram_range=(1, 1), max_df=1.0, min_df=1,
@@ -37,8 +36,7 @@ class TagVectorizer(TfidfVectorizer):
                  dtype=np.int64, norm='l2', use_idf=True, smooth_idf=True,
                  sublinear_tf=False):
         super(TagVectorizer, self).__init__(
-            input=input, charset=charset, charset_error=charset_error,
-            encoding=encoding, decode_error=decode_error,
+            input=input, encoding=encoding, decode_error=decode_error,
             strip_accents=strip_accents, lowercase=lowercase,
             preprocessor=preprocessor, tokenizer=tokenizer, analyzer=analyzer,
             stop_words=stop_words, token_pattern=token_pattern,
@@ -69,9 +67,8 @@ class TagVectorizer(TfidfVectorizer):
 
 class NERVectorizer(TfidfVectorizer):
 
-    def __init__(self, tags_only=True, input='content', encoding='utf-8', charset=None,
-                 decode_error='strict', charset_error=None,
-                 strip_accents=None, lowercase=True,
+    def __init__(self, tags_only=True, input='content', encoding='utf-8',
+                 decode_error='strict', strip_accents=None, lowercase=True,
                  preprocessor=None, tokenizer=None, analyzer='word',
                  stop_words=None, token_pattern=r"(?u)\b\w\w+\b",
                  ngram_range=(1, 1), max_df=1.0, min_df=1,
@@ -79,8 +76,7 @@ class NERVectorizer(TfidfVectorizer):
                  dtype=np.int64, norm='l2', use_idf=True, smooth_idf=True,
                  sublinear_tf=False):
         super(NERVectorizer, self).__init__(
-            input=input, charset=charset, charset_error=charset_error,
-            encoding=encoding, decode_error=decode_error,
+            input=input, encoding=encoding, decode_error=decode_error,
             strip_accents=strip_accents, lowercase=lowercase,
             preprocessor=preprocessor, tokenizer=tokenizer, analyzer=analyzer,
             stop_words=stop_words, token_pattern=token_pattern,
@@ -115,9 +111,8 @@ class NERVectorizer(TfidfVectorizer):
 
 class RelatedWordVectorizer(TfidfVectorizer):
     # just create a new string of "rel_word" tags and pass it into a TfidfVectorizer
-    def __init__(self, input='content', encoding='utf-8', charset=None,
-                 decode_error='strict', charset_error=None,
-                 strip_accents=None, lowercase=True,
+    def __init__(self, input='content', encoding='utf-8',
+                 decode_error='strict', strip_accents=None, lowercase=True,
                  preprocessor=None, tokenizer=None, analyzer='word',
                  stop_words=None, token_pattern=r"(?u)\b\w\w+\b",
                  ngram_range=(1, 1), max_df=1.0, min_df=1,
@@ -125,8 +120,7 @@ class RelatedWordVectorizer(TfidfVectorizer):
                  dtype=np.int64, norm='l2', use_idf=True, smooth_idf=True,
                  sublinear_tf=False):
         super(RelatedWordVectorizer, self).__init__(
-            input=input, charset=charset, charset_error=charset_error,
-            encoding=encoding, decode_error=decode_error,
+            input=input, encoding=encoding, decode_error=decode_error,
             strip_accents=strip_accents, lowercase=lowercase,
             preprocessor=preprocessor, tokenizer=tokenizer, analyzer=analyzer,
             stop_words=stop_words, token_pattern=token_pattern,
@@ -201,9 +195,8 @@ class CustomFeatures(BaseEstimator):
 
 class CustomRelWordFeatures(BaseEstimator, VectorizerMixin):
 
-    def __init__(self, input='content', encoding='utf-8', charset=None,
-                 decode_error='strict', charset_error=None,
-                 strip_accents=None,
+    def __init__(self, input='content', encoding='utf-8',
+                 decode_error='strict', strip_accents=None,
                  lowercase=True, preprocessor=None, tokenizer=None,
                  stop_words=None, token_pattern=r"(?u)\b\w\w+\b",
                  ngram_range=(1, 1), analyzer='word'):
