@@ -33,7 +33,7 @@ def create_app(configfile=None):
             question = request.form['question']
             print(question)
             answer = inquire.answer_question(question)
-            return render_template('answer.html', answer=answer)
+            return render_template('answer.html', answer=answer, question=question)
 
         form = ExampleForm()
         return render_template('index.html', form=form)
@@ -48,7 +48,8 @@ def create_app(configfile=None):
 app = create_app()
 
 if __name__ == '__main__':
-	http_server = WSGIServer(('127.0.0.1', 9191), app)
-	http_server.serve_forever()
+    http_server = WSGIServer(('127.0.0.1', 9191), app)
+    print("starting server on port 9191")
+    http_server.serve_forever()
     # app.run(debug=True, host='0.0.0.0', port=9191)
 
